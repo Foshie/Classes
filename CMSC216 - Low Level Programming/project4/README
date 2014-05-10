@@ -1,0 +1,39 @@
+As you have seen in lecture (and if you have run it yourself), yis prints
+out a considerable amount of information about changed memory/registers.
+Because your implementation need not manipulate the same memory and/or
+registers as ours, we cannot simply do a straight diff of the simulator
+output to test your projects.  Therefore, we have created a program named
+runtest that runs your assembly programs on the simulator and filters
+out the extraneous output from yis.  The runtest program is located in
+~/216public/bin, along with the yas assembler and yis simulator.  This
+document explains the use of the runtest program and the public tests for
+Project #4.
+
+For this project, the public tests are data files that list three items:
+  - the assembled program to be executed
+  - the input to that program when simulated
+  - the expected output of that program when simulated
+
+These items are contained in a file with a .yml extension (for those 
+interested, it is in a format called YAML).  If the test is testing a
+program named factorial.yo, which is supposed to output the factorial
+of its input, the file factorial_test.yml might look something like this:
+
+  input: 5
+  output: 120
+  program: factorial.yo
+
+Note that the order of the lines is not important.  The public tests are
+named publicXX.yml.  To check if your program passes a test, simply run
+the runtest program with the name of the testfile you want to check as the
+argument to runtest; for example:
+
+  $ runtest public01.yml
+  Testing prog1.yo with input 2: PASSED in 2309 steps.
+
+If your program does not yield correct output, or if it stops execution via
+an exception, runtest will note that and declare the test failed.  If the
+test is passed, runtest reports how many steps were taken to complete
+execution.  Remember that as part of the project, you should try to keep
+the number of steps low to maintain good code efficiency (although of
+course, correctness is far more important than a low step count).

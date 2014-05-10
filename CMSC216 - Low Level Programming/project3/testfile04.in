@@ -1,0 +1,113 @@
+insert a z
+insert b y
+insert c x
+insert d w
+insert e v
+insert f u
+insert g t
+insert h s
+insert i r
+insert j q
+insert k p
+insert l o
+insert m n
+insert n m
+insert o l
+insert p k
+insert q j
+insert r i
+insert s h
+insert t g
+insert u f
+insert v e
+insert w d
+insert x c
+insert y b
+insert z a
+display key_count
+display keys
+display values
+reset
+display key_count
+__END__
+Insertion of a => z succeeded.
+Insertion of b => y succeeded.
+Insertion of c => x succeeded.
+Insertion of d => w succeeded.
+Insertion of e => v succeeded.
+Insertion of f => u succeeded.
+Insertion of g => t succeeded.
+Insertion of h => s succeeded.
+Insertion of i => r succeeded.
+Insertion of j => q succeeded.
+Insertion of k => p succeeded.
+Insertion of l => o succeeded.
+Insertion of m => n succeeded.
+Insertion of n => m succeeded.
+Insertion of o => l succeeded.
+Insertion of p => k succeeded.
+Insertion of q => j succeeded.
+Insertion of r => i succeeded.
+Insertion of s => h succeeded.
+Insertion of t => g succeeded.
+Insertion of u => f succeeded.
+Insertion of v => e succeeded.
+Insertion of w => d succeeded.
+Insertion of x => c succeeded.
+Insertion of y => b succeeded.
+Insertion of z => a succeeded.
+Key count: 26
+Key 1: a
+Key 2: b
+Key 3: c
+Key 4: d
+Key 5: e
+Key 6: f
+Key 7: g
+Key 8: h
+Key 9: i
+Key 10: j
+Key 11: k
+Key 12: l
+Key 13: m
+Key 14: n
+Key 15: o
+Key 16: p
+Key 17: q
+Key 18: r
+Key 19: s
+Key 20: t
+Key 21: u
+Key 22: v
+Key 23: w
+Key 24: x
+Key 25: y
+Key 26: z
+Value 1: z
+Value 2: y
+Value 3: x
+Value 4: w
+Value 5: v
+Value 6: u
+Value 7: t
+Value 8: s
+Value 9: r
+Value 10: q
+Value 11: p
+Value 12: o
+Value 13: n
+Value 14: m
+Value 15: l
+Value 16: k
+Value 17: j
+Value 18: i
+Value 19: h
+Value 20: g
+Value 21: f
+Value 22: e
+Value 23: d
+Value 24: c
+Value 25: b
+Value 26: a
+Table reset.
+Key count: 0

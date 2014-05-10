@@ -1,0 +1,21 @@
+#!/bin/tcsh
+
+make all
+
+foreach test_file (public*.c)
+
+  set test = $test_file:r
+
+  $test.x > my-output
+
+  diff -b -s my-output $test.output > /dev/null
+
+  if ($status != 0) then
+    echo "Test $test FAILED."
+  else
+    echo "Test $test passed."
+  endif
+
+  rm -f my-output
+
+end

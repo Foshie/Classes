@@ -1,0 +1,12 @@
+      li     R1 224
+      li     R2 48
+loop: beq    R0 R2 done
+      move   R3 R2
+      mod    R2 R1 R2
+      move   R1 R3
+      j      loop
+done: io     R0 R1
+      li     R4 2
+      li     R5 10
+      io     R4 R5
+      halt

@@ -1,0 +1,30 @@
+
+#	Josh Fann
+#	109901918
+#	jfann
+
+#	prog1 takes 2 numbers and finds their greatest common denominator on
+#	the interval [1,1000].
+#	Prints the gcd and then a new line.
+
+Main:	rdint	%eax		# x = sscanf
+	rdint	%ebx		# y = sscanf
+
+	rrmovl	%eax,	%ecx	# c = x
+	subl	%ebx,	%ecx	# c = c - y
+	jge	Loop		# Jump to Loop
+
+	rrmovl	%eax, 	%ecx	# temp = x
+	rrmovl	%ebx,	%eax	# x = y
+	rrmovl 	%ecx,	%ebx	# y = temp
+
+Loop:	rrmovl	%eax,	%ecx	# temp = x
+	modl	%ebx,	%ecx	# temp = temp % y
+	jne	Skip		# Jump to Skip if not 0
+	wrint	%ebx		# printf("%d", y)
+	irmovl	$10, 	%edx	# ch = '\n'
+	wrch	%edx		# printf("\n")
+	halt
+Skip:	rrmovl	%ebx,	%eax	# x = y
+	rrmovl	%ecx,	%ebx	# y = temp
+	jmp	Loop

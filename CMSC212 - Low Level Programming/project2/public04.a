@@ -1,0 +1,6 @@
+not  R1 R5
+not  R2 R1
+neg  R3 R4
+inc  R4 R4
+neg  R5 R3
+halt

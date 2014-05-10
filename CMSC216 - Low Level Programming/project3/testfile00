@@ -1,0 +1,13 @@
+insert a b
+search a
+display key_count
+display keys
+display values
+delete a
+__END__
+Insertion of a => b succeeded.
+Search for a succeeded (b).
+Key count: 1
+Key 1: a
+Value 1: b
+Deletion of a succeeded.

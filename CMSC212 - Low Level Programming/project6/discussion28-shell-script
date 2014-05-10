@@ -1,0 +1,45 @@
+#!/bin/tcsh
+
+ln -sf libarray-hash-map.so libhash-map.so
+
+make all
+
+foreach test_file (public01.c public03.c public05.c public07.c public09.c \
+                   public11.c public13.c)
+
+  set test = $test_file:r
+
+  $test.x > my-output
+
+  diff -b -s my-output $test.output > /dev/null
+
+  if ($status != 0) then
+    echo "Test $test FAILED."
+  else
+    echo "Test $test passed."
+  endif
+
+  rm -f my-output
+
+end
+
+ln -sf liblinked-hash-map.so libhash-map.so
+
+foreach test_file (public02.c public04.c public06.c public08.c public10.c \
+                   public12.c public14.c)
+
+  set test = $test_file:r
+
+  $test.x > my-output
+
+  diff -b -s my-output $test.output > /dev/null
+
+  if ($status != 0) then
+    echo "Test $test FAILED."
+  else
+    echo "Test $test passed."
+  endif
+
+  rm -f my-output
+
+end

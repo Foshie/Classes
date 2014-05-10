@@ -1,0 +1,66 @@
+<commands
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="part3in.xsd"
+pmOrder="3" leafOrder="6" type="Bstar" spatialWidth="1024" spatialHeight="1024">
+
+ <createCity id="1"  name="AA1" y="39" x="76" radius="30" color="black"/>
+ <printHexTrie id="2"  />
+ <createCity id="3"  name="A2" x="81" y="47" radius="35"  color="black"/>
+ <printHexTrie id="4"  />
+ <createCity id="5"  name="AA3" x="84" y="33" radius="40"  color="black"/>
+ <printHexTrie id="6"  />
+ <createCity id="7"  name="A4" x="118" y="33" radius="80"  color="black"/>
+ <printHexTrie id="8"  />
+ <createCity id="9"  name="AA5" x="80" y="25" radius="30"  color="black"/>
+ <printHexTrie id="10"  />
+ <createCity id="11"  name="A6" x="71" y="42" radius="50"  color="black"/>
+ <printHexTrie id="12"  />
+ <createCity id="13"  name="AA7" x="2" y="48" radius="10" color="black"/>
+ <printHexTrie id="14"  />
+ <createCity id="15"  name="AA8" x="13" y="52" radius="10" color="black"/>
+ <printHexTrie id="16"  />
+ <createCity id="17"  name="A9" x="3" y="40" radius="10" color="black"/>
+ <printHexTrie id="18"  />
+ <createCity id="19"  name="AA10" x="2" y="41" radius="10" color="black"/>
+ <printHexTrie id="20"  />
+ <createCity id="21"  name="A11" x="12" y="41" radius="10" color="black"/>
+ <printHexTrie id="22"  />
+ <createCity id="23"  name="AA12" x="23" y="37" radius="10" color="black"/>
+ <printHexTrie id="24"  />
+ <createCity id="25"  name="A13" x="28" y="41" radius="10" color="black"/>
+ <printHexTrie id="26"  />
+ <createCity id="27"  name="AA14" x="18" y="59" radius="10" color="black"/>
+ <printHexTrie id="28"  />
+ <createCity id="29"  name="A15" x="15" y="400" radius="10" color="black" />
+ <printHexTrie id="30"  />
+ <createCity id="31"  name="AA16" x="369" y="6" radius="10" color="black" />
+ <printHexTrie id="32"  />
+ <createCity id="33"  name="A17" x="542" y="550" radius="10" color="black" />
+ <printHexTrie id="34"  />
+ <createCity id="35" name="ZZ1" x="500" y="500" radius="10" color="black" />
+ <printHexTrie id="36"  />
+ <createCity id="37" name="Z2" x="1000" y="1000" radius="10" color="black" />
+ <printHexTrie id="38"  />
+ <createCity id="39" name="ZZ3" x="35" y="134" radius="10" color="black" />
+ <printHexTrie id="40"  />
+ <createCity id="41" name="Z4" x="129" y="200" radius="10" color="black" />
+ <printHexTrie id="42"  />
+ <createCity id="43" name="ZZ5" x="600" y="15" radius="10" color="black" />
+ <printHexTrie id="44"  />
+ <createCity id="45" name="B1" x="700" y="120" radius="10" color="black" />
+ <printHexTrie id="46"  />
+ <createCity id="47" name="BB2" x="350" y="116" radius="10" color="black" />
+ <printHexTrie id="48"  />
+ <createCity id="49" name="B3" x="111" y="566" radius="10" color="black" />
+ <printHexTrie id="50"  />
+ <createCity id="51" name="BB4" x="988" y="988" radius="10" color="black" />
+ <printHexTrie id="52"  />
+ <createCity id="53" name="B5" x="20" y="43" radius="10" color="black" />
+ <printHexTrie id="54"  />
+ <createCity id="55" name="BB6" x="144" y="203" radius="10" color="black" />
+ <printHexTrie id="56"  />
+ <createCity id="57" name="B7" x="375" y="425" radius="10" color="black" />
+ <printHexTrie id="58" />
+ <clearAll id="59" />
+</commands>
+

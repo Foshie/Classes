@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="AA1"/>
+      <x value="76"/>
+      <y value="39"/>
+      <radius value="30"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="2" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="1" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="AA1" value="(76,39)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="3" name="createCity"/>
+    <parameters>
+      <name value="A2"/>
+      <x value="81"/>
+      <y value="47"/>
+      <radius value="35"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="4" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="2" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="AA1" value="(76,39)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="5" name="createCity"/>
+    <parameters>
+      <name value="AA3"/>
+      <x value="84"/>
+      <y value="33"/>
+      <radius value="40"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="6" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="3" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="7" name="createCity"/>
+    <parameters>
+      <name value="A4"/>
+      <x value="118"/>
+      <y value="33"/>
+      <radius value="80"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="8" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="4" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="A4" value="(118,33)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="9" name="createCity"/>
+    <parameters>
+      <name value="AA5"/>
+      <x value="80"/>
+      <y value="25"/>
+      <radius value="30"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="10" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="5" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="A4" value="(118,33)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+          <entry key="AA5" value="(80,25)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="11" name="createCity"/>
+    <parameters>
+      <name value="A6"/>
+      <x value="71"/>
+      <y value="42"/>
+      <radius value="50"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="12" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="6" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="A4" value="(118,33)"/>
+          <entry key="A6" value="(71,42)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+          <entry key="AA5" value="(80,25)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="13" name="createCity"/>
+    <parameters>
+      <name value="AA7"/>
+      <x value="2"/>
+      <y value="48"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="14" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="7" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="A4" value="(118,33)"/>
+          <entry key="A6" value="(71,42)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+          <entry key="AA5" value="(80,25)"/>
+          <entry key="AA7" value="(2,48)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="15" name="createCity"/>
+    <parameters>
+      <name value="AA8"/>
+      <x value="13"/>
+      <y value="52"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="16" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="8" leafOrder="6" type="Bstar">
+        <leaf>
+          <entry key="A2" value="(81,47)"/>
+          <entry key="A4" value="(118,33)"/>
+          <entry key="A6" value="(71,42)"/>
+          <entry key="AA1" value="(76,39)"/>
+          <entry key="AA3" value="(84,33)"/>
+          <entry key="AA5" value="(80,25)"/>
+          <entry key="AA7" value="(2,48)"/>
+          <entry key="AA8" value="(13,52)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="17" name="createCity"/>
+    <parameters>
+      <name value="A9"/>
+      <x value="3"/>
+      <y value="40"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="18" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="9" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="19" name="createCity"/>
+    <parameters>
+      <name value="AA10"/>
+      <x value="2"/>
+      <y value="41"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="20" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="10" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="21" name="createCity"/>
+    <parameters>
+      <name value="A11"/>
+      <x value="12"/>
+      <y value="41"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="22" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="11" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="23" name="createCity"/>
+    <parameters>
+      <name value="AA12"/>
+      <x value="23"/>
+      <y value="37"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="24" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="12" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="25" name="createCity"/>
+    <parameters>
+      <name value="A13"/>
+      <x value="28"/>
+      <y value="41"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="26" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="13" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="27" name="createCity"/>
+    <parameters>
+      <name value="AA14"/>
+      <x value="18"/>
+      <y value="59"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="28" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="14" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="29" name="createCity"/>
+    <parameters>
+      <name value="A15"/>
+      <x value="15"/>
+      <y value="400"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="30" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="15" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="31" name="createCity"/>
+    <parameters>
+      <name value="AA16"/>
+      <x value="369"/>
+      <y value="6"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="32" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="16" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="33" name="createCity"/>
+    <parameters>
+      <name value="A17"/>
+      <x value="542"/>
+      <y value="550"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="34" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="17" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="35" name="createCity"/>
+    <parameters>
+      <name value="ZZ1"/>
+      <x value="500"/>
+      <y value="500"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="36" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="18" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="37" name="createCity"/>
+    <parameters>
+      <name value="Z2"/>
+      <x value="1000"/>
+      <y value="1000"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="38" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="19" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="39" name="createCity"/>
+    <parameters>
+      <name value="ZZ3"/>
+      <x value="35"/>
+      <y value="134"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="40" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="20" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="41" name="createCity"/>
+    <parameters>
+      <name value="Z4"/>
+      <x value="129"/>
+      <y value="200"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="42" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="21" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="43" name="createCity"/>
+    <parameters>
+      <name value="ZZ5"/>
+      <x value="600"/>
+      <y value="15"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="44" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="22" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="45" name="createCity"/>
+    <parameters>
+      <name value="B1"/>
+      <x value="700"/>
+      <y value="120"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="46" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="23" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="47" name="createCity"/>
+    <parameters>
+      <name value="BB2"/>
+      <x value="350"/>
+      <y value="116"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="48" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="24" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="49" name="createCity"/>
+    <parameters>
+      <name value="B3"/>
+      <x value="111"/>
+      <y value="566"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="50" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="25" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="B3" value="(111,566)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="51" name="createCity"/>
+    <parameters>
+      <name value="BB4"/>
+      <x value="988"/>
+      <y value="988"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="52" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="26" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="B3" value="(111,566)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="BB4" value="(988,988)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="53" name="createCity"/>
+    <parameters>
+      <name value="B5"/>
+      <x value="20"/>
+      <y value="43"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="54" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="27" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="B3" value="(111,566)"/>
+          </leaf>
+          <key value="B5"/>
+          <leaf>
+            <entry key="B5" value="(20,43)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="BB4" value="(988,988)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="55" name="createCity"/>
+    <parameters>
+      <name value="BB6"/>
+      <x value="144"/>
+      <y value="203"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="56" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="28" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="B3" value="(111,566)"/>
+          </leaf>
+          <key value="B5"/>
+          <leaf>
+            <entry key="B5" value="(20,43)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="BB4" value="(988,988)"/>
+            <entry key="BB6" value="(144,203)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="57" name="createCity"/>
+    <parameters>
+      <name value="B7"/>
+      <x value="375"/>
+      <y value="425"/>
+      <radius value="10"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="58" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="29" leafOrder="6" type="Bstar">
+        <guide>
+          <leaf>
+            <entry key="A11" value="(12,41)"/>
+            <entry key="A13" value="(28,41)"/>
+            <entry key="A15" value="(15,400)"/>
+            <entry key="A17" value="(542,550)"/>
+          </leaf>
+          <key value="A2"/>
+          <leaf>
+            <entry key="A2" value="(81,47)"/>
+            <entry key="A4" value="(118,33)"/>
+            <entry key="A6" value="(71,42)"/>
+            <entry key="A9" value="(3,40)"/>
+          </leaf>
+          <key value="AA1"/>
+          <leaf>
+            <entry key="AA1" value="(76,39)"/>
+            <entry key="AA10" value="(2,41)"/>
+            <entry key="AA12" value="(23,37)"/>
+            <entry key="AA14" value="(18,59)"/>
+            <entry key="AA16" value="(369,6)"/>
+          </leaf>
+          <key value="AA3"/>
+          <leaf>
+            <entry key="AA3" value="(84,33)"/>
+            <entry key="AA5" value="(80,25)"/>
+            <entry key="AA7" value="(2,48)"/>
+          </leaf>
+          <key value="AA8"/>
+          <leaf>
+            <entry key="AA8" value="(13,52)"/>
+            <entry key="B1" value="(700,120)"/>
+            <entry key="B3" value="(111,566)"/>
+          </leaf>
+          <key value="B5"/>
+          <leaf>
+            <entry key="B5" value="(20,43)"/>
+            <entry key="B7" value="(375,425)"/>
+            <entry key="BB2" value="(350,116)"/>
+            <entry key="BB4" value="(988,988)"/>
+            <entry key="BB6" value="(144,203)"/>
+            <entry key="Z2" value="(1000,1000)"/>
+          </leaf>
+          <key value="Z4"/>
+          <leaf>
+            <entry key="Z4" value="(129,200)"/>
+            <entry key="ZZ1" value="(500,500)"/>
+            <entry key="ZZ3" value="(35,134)"/>
+            <entry key="ZZ5" value="(600,15)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="59" name="clearAll"/>
+    <parameters/>
+    <output/>
+  </success>
+</results>

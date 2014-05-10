@@ -1,0 +1,64 @@
+start a*
+trans a* a ()a*
+trans ()a* a ()a*
+final a*
+
+start ab
+trans ()b b ()
+trans ab a ()b
+final ()
+
+start a*b*
+trans ()a*b* a ()a*b*
+trans ()a*b* b ()b*
+trans ()b* b ()b*
+trans a*b* a ()a*b*
+trans a*b* b ()b*
+final a*b*
+
+start ab*
+trans ()b* b ()b*
+trans ab* a ()b*
+final ()b*
+
+start a|b
+trans a|b a ()
+trans a|b b ()
+final ()
+
+start a*|b
+trans a*|b a ()a*
+trans a*|b b ()
+trans ()a* a ()a*
+final a*|b
+
+start b|a*
+trans b|a* a ()a*
+trans b|a* b ()
+trans ()a* a ()a*
+final b|a*
+
+start (ab)*|ba*
+trans ()b(ab)* b ()(ab)*
+trans (ab)*|ba* a ()b(ab)*
+trans (ab)*|ba* b ()a*
+trans ()(ab)* a ()b(ab)*
+trans ()a* a ()a*
+final (ab)*|ba*
+
+start ab*|ba*
+trans ab*|ba* a ()b*
+trans ab*|ba* b ()a*
+trans ()b* b ()b*
+trans ()a* a ()a*
+final ()b*
+
+start b*a|b*
+trans ()b*a a ()
+trans ()b*a b ()b*a
+trans b*a|b* a ()
+trans b*a|b* b ()b*a
+trans b*a|b* b ()b*
+trans ()b* b ()b*
+final b*a|b*
+

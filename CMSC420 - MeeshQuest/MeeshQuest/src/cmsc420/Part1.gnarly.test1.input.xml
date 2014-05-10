@@ -1,0 +1,174 @@
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="part1in.xsd" spatialWidth="8192" spatialHeight="8192">
+<createCity name="cehfbd" x="1055" y="173" radius="98" color="green"/>
+<mapCity name="cehfbd"/>
+<unmapCity name="cehfbd"/>
+<deleteCity name="cehfbd"/>
+<createCity name="egcbfa" x="7423" y="550" radius="43" color="orange"/>
+<mapCity name="egcbfa"/>
+<createCity name="bdceha" x="3148" y="7589" radius="70" color="purple"/>
+<mapCity name="bdceha"/>
+<createCity name="dhcgaf" x="2494" y="7167" radius="58" color="purple"/>
+<mapCity name="dhcgaf"/>
+<createCity name="hecbgf" x="4493" y="3517" radius="60" color="green"/>
+<mapCity name="hecbgf"/>
+<unmapCity name="hecbgf"/>
+<deleteCity name="hecbgf"/>
+<createCity name="agbhfd" x="2992" y="6540" radius="48" color="red"/>
+<mapCity name="agbhfd"/>
+<createCity name="gdceab" x="7141" y="7899" radius="25" color="red"/>
+<mapCity name="gdceab"/>
+<unmapCity name="gdceab"/>
+<deleteCity name="gdceab"/>
+<createCity name="bedahg" x="4905" y="3333" radius="37" color="red"/>
+<mapCity name="bedahg"/>
+<createCity name="hfecbd" x="3438" y="4765" radius="48" color="purple"/>
+<mapCity name="hfecbd"/>
+<createCity name="cbdfah" x="7889" y="6211" radius="85" color="blue"/>
+<mapCity name="cbdfah"/>
+<createCity name="hbdaef" x="4315" y="5870" radius="69" color="red"/>
+<mapCity name="hbdaef"/>
+<createCity name="chefga" x="4108" y="3680" radius="34" color="red"/>
+<mapCity name="chefga"/>
+<createCity name="fhcbeg" x="3655" y="8080" radius="76" color="purple"/>
+<mapCity name="fhcbeg"/>
+<createCity name="efdcgh" x="2971" y="248" radius="93" color="blue"/>
+<mapCity name="efdcgh"/>
+<createCity name="bdcgfh" x="2303" y="1193" radius="69" color="purple"/>
+<mapCity name="bdcgfh"/>
+<createCity name="adgefb" x="558" y="1305" radius="98" color="red"/>
+<mapCity name="adgefb"/>
+<createCity name="fabgcd" x="299" y="1823" radius="76" color="green"/>
+<mapCity name="fabgcd"/>
+<createCity name="bchagf" x="4790" y="4327" radius="75" color="green"/>
+<mapCity name="bchagf"/>
+<createCity name="hbfaeg" x="3125" y="1732" radius="33" color="yellow"/>
+<mapCity name="hbfaeg"/>
+<createCity name="ehfgcd" x="83" y="3927" radius="18" color="black"/>
+<mapCity name="ehfgcd"/>
+<createCity name="hecbfa" x="7319" y="1389" radius="16" color="orange"/>
+<mapCity name="hecbfa"/>
+<createCity name="fceagh" x="1231" y="6537" radius="13" color="black"/>
+<mapCity name="fceagh"/>
+<createCity name="chgdab" x="8173" y="1184" radius="89" color="blue"/>
+<mapCity name="chgdab"/>
+<unmapCity name="chgdab"/>
+<deleteCity name="chgdab"/>
+<createCity name="hbfdec" x="3723" y="5957" radius="80" color="green"/>
+<mapCity name="hbfdec"/>
+<createCity name="dhacbe" x="6318" y="872" radius="89" color="red"/>
+<mapCity name="dhacbe"/>
+<createCity name="efgbdc" x="7922" y="474" radius="54" color="blue"/>
+<mapCity name="efgbdc"/>
+<createCity name="cehfda" x="3908" y="5081" radius="15" color="green"/>
+<mapCity name="cehfda"/>
+<createCity name="bahfeg" x="7059" y="5608" radius="13" color="green"/>
+<mapCity name="bahfeg"/>
+<createCity name="bdagfc" x="3398" y="770" radius="52" color="blue"/>
+<mapCity name="bdagfc"/>
+<createCity name="egfhbc" x="876" y="1667" radius="59" color="yellow"/>
+<mapCity name="egfhbc"/>
+<createCity name="fcgdae" x="5903" y="7403" radius="54" color="purple"/>
+<mapCity name="fcgdae"/>
+<createCity name="chdbfa" x="7307" y="5446" radius="21" color="black"/>
+<mapCity name="chdbfa"/>
+<createCity name="hagbdc" x="2955" y="521" radius="91" color="green"/>
+<mapCity name="hagbdc"/>
+<createCity name="cghfad" x="6422" y="6604" radius="68" color="red"/>
+<mapCity name="cghfad"/>
+<createCity name="bcfead" x="6195" y="3921" radius="29" color="red"/>
+<mapCity name="bcfead"/>
+<createCity name="abcgfh" x="2130" y="2940" radius="27" color="blue"/>
+<mapCity name="abcgfh"/>
+<createCity name="gedbca" x="1247" y="5381" radius="55" color="blue"/>
+<mapCity name="gedbca"/>
+<createCity name="gabfde" x="5012" y="6976" radius="81" color="green"/>
+<mapCity name="gabfde"/>
+<createCity name="chbdgf" x="514" y="8086" radius="56" color="orange"/>
+<mapCity name="chbdgf"/>
+<createCity name="bfhceg" x="6094" y="5567" radius="22" color="red"/>
+<mapCity name="bfhceg"/>
+<listCities sortBy="name"/>
+<listCities sortBy="coordinate"/>
+<printPRQuadtree />
+<rangeCities x="480" y="6557" radius="6983"/>
+<nearestCity x="4246" y="4430"/>
+<rangeCities x="896" y="7306" radius="2032"/>
+<nearestCity x="1954" y="7923"/>
+<rangeCities x="3827" y="2382" radius="528"/>
+<nearestCity x="1091" y="6547"/>
+<rangeCities x="1011" y="193" radius="5726"/>
+<nearestCity x="6556" y="858"/>
+<rangeCities x="1809" y="4394" radius="7524"/>
+<nearestCity x="2212" y="2889"/>
+<rangeCities x="3859" y="4021" radius="2192"/>
+<nearestCity x="6007" y="7710"/>
+<rangeCities x="1858" y="6574" radius="5929"/>
+<nearestCity x="4172" y="3812"/>
+<rangeCities x="8134" y="646" radius="4887"/>
+<nearestCity x="6230" y="1469"/>
+<rangeCities x="7728" y="3839" radius="8053"/>
+<nearestCity x="1761" y="4725"/>
+<rangeCities x="2865" y="4008" radius="1864"/>
+<nearestCity x="6007" y="3857"/>
+<rangeCities x="1913" y="8150" radius="3858"/>
+<nearestCity x="8018" y="7403"/>
+<rangeCities x="3200" y="153" radius="4345"/>
+<nearestCity x="4761" y="6727"/>
+<rangeCities x="2239" y="4682" radius="854"/>
+<nearestCity x="2630" y="3453"/>
+<rangeCities x="355" y="6953" radius="1368"/>
+<nearestCity x="6609" y="5380"/>
+<rangeCities x="6947" y="1051" radius="6078"/>
+<nearestCity x="4794" y="4007"/>
+<rangeCities x="1232" y="5702" radius="6240"/>
+<nearestCity x="6119" y="2500"/>
+<rangeCities x="892" y="8182" radius="2791"/>
+<nearestCity x="873" y="4312"/>
+<rangeCities x="6721" y="5344" radius="4464"/>
+<nearestCity x="3710" y="1493"/>
+<rangeCities x="2954" y="1109" radius="4549"/>
+<nearestCity x="2061" y="3636"/>
+<rangeCities x="280" y="4521" radius="695"/>
+<nearestCity x="5291" y="5372"/>
+<rangeCities x="5126" y="1494" radius="3987"/>
+<nearestCity x="6412" y="3590"/>
+<rangeCities x="277" y="6284" radius="7527"/>
+<nearestCity x="1675" y="3186"/>
+<rangeCities x="4783" y="5204" radius="7686"/>
+<nearestCity x="937" y="6568"/>
+<rangeCities x="6867" y="468" radius="3975"/>
+<nearestCity x="5353" y="4591"/>
+<rangeCities x="4656" y="7501" radius="5683"/>
+<nearestCity x="2092" y="7116"/>
+<rangeCities x="7920" y="4813" radius="1969"/>
+<nearestCity x="2344" y="7153"/>
+<rangeCities x="3517" y="3515" radius="7957"/>
+<nearestCity x="4459" y="6914"/>
+<rangeCities x="2609" y="6621" radius="3747"/>
+<nearestCity x="6349" y="290"/>
+<rangeCities x="3657" y="2017" radius="5307"/>
+<nearestCity x="2546" y="4278"/>
+<rangeCities x="2134" y="2762" radius="2300"/>
+<nearestCity x="2219" y="7432"/>
+<rangeCities x="641" y="4362" radius="7586"/>
+<nearestCity x="3300" y="4644"/>
+<rangeCities x="1860" y="5503" radius="3519"/>
+<nearestCity x="3357" y="2814"/>
+<rangeCities x="1383" y="5070" radius="720"/>
+<nearestCity x="3437" y="4929"/>
+<rangeCities x="7434" y="5685" radius="7618"/>
+<nearestCity x="6302" y="6849"/>
+<rangeCities x="4864" y="3034" radius="7803"/>
+<nearestCity x="840" y="6789"/>
+<rangeCities x="4071" y="5170" radius="826"/>
+<nearestCity x="5340" y="1244"/>
+<rangeCities x="912" y="4317" radius="7017"/>
+<nearestCity x="3512" y="6334"/>
+<rangeCities x="7117" y="5658" radius="7753"/>
+<nearestCity x="2415" y="1641"/>
+<rangeCities x="2126" y="5601" radius="4991"/>
+<nearestCity x="349" y="6289"/>
+<rangeCities x="3892" y="5176" radius="3190"/>
+<nearestCity x="2134" y="5325"/>
+<clearAll />
+</commands>

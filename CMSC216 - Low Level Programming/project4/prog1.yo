@@ -1,0 +1,18 @@
+  0x000: f208         | 	rdint	%eax		# x = sscanf
+  0x002: f238         | 	rdint	%ebx		# y = sscanf
+  0x004: 2001         | 	rrmovl	%eax,	%ecx	# c = x
+  0x006: 6131         | 	subl	%ebx,	%ecx	# c = c - y
+  0x008: 7513000000   | 	jge	Loop		# Jump to Loop
+  0x00d: 2001         | 	rrmovl	%eax, 	%ecx	# temp = x
+  0x00f: 2030         | 	rrmovl	%ebx,	%eax	# x = y
+  0x011: 2013         | 	rrmovl 	%ecx,	%ebx	# y = temp
+  0x013: 2001         | Loop:	rrmovl	%eax,	%ecx	# temp = x
+  0x015: 6631         | 	modl	%ebx,	%ecx	# temp = temp % y
+  0x017: 7427000000   | 	jne	Skip		# Jump to Skip if not 0
+  0x01c: f338         | 	wrint	%ebx		# printf("%d", y)
+  0x01e: 30820a000000 | 	irmovl	$10, 	%edx	# ch = '\n'
+  0x024: f128         | 	wrch	%edx		# printf("\n")
+  0x026: 10           | 	halt
+  0x027: 2030         | Skip:	rrmovl	%ebx,	%eax	# x = y
+  0x029: 2013         | 	rrmovl	%ecx,	%ebx	# y = temp
+  0x02b: 7013000000   | 	jmp	Loop

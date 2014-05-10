@@ -1,0 +1,1 @@
+[(A, bar, foo); (A, baz, bar); (A, baz, baz); (A, foo, bar); (A, foo, foo); (bar, foo, bar)]

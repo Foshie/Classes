@@ -1,0 +1,19 @@
+<commands
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="part3in.xsd"
+	pmOrder="3" leafOrder="2" spatialWidth="1024" spatialHeight="1024">
+
+ <createCity id="1"  name="Baltimore" y="37" x="140" radius="5" color="black"/>
+ <printHexTrie id="2"  />
+ <createCity id="3"  name="Chicago" x="133" y="34" radius="5"  color="black"/>
+ <printHexTrie id="4"  />
+ <createCity id="5"  name="NewYork" x="200" y="300" radius="5" color="black"/>
+ <printHexTrie id="6" />
+ <createCity id="7"  name="Zurich"  x="1000" y="1000" radius="5" color="black"/>
+ <printHexTrie id="8" />
+ <createCity id="9"  name="Paris"  x="500" y="400" radius="5" color="black"/>
+ <printHexTrie id="10" />
+ <createCity id="11" name="Amsterdam" x="450" y="450" radius="5" color="black"/>
+ <printHexTrie id="12" />
+ <clearAll id="13"  />
+</commands>

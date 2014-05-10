@@ -1,0 +1,10 @@
+a*
+ab
+a*b*
+ab*
+a|b
+a*|b
+b|a*
+(ab)*|b(a*)
+(ab*)|(ba*)
+(b*a)|(b*)

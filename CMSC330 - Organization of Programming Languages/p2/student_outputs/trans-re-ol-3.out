@@ -1,0 +1,34 @@
+ooo|lll --l--> ()ll
+ooo|lll --o--> ()oo
+
+olol|lolo --l--> ()olo
+olol|lolo --o--> ()lol
+
+loo|olo|ool --l--> ()oo
+loo|olo|ool --o--> ()lo
+loo|olo|ool --o--> ()ol
+
+llo|lol|oll --l--> ()lo
+llo|lol|oll --l--> ()ol
+llo|lol|oll --o--> ()ll
+
+lloo|ooll|ollo|lool --l--> ()loo
+lloo|ooll|ollo|lool --l--> ()ool
+lloo|ooll|ollo|lool --o--> ()llo
+lloo|ooll|ollo|lool --o--> ()oll
+
+o|l|oo|ll --l--> ()
+o|l|oo|ll --l--> ()l
+o|l|oo|ll --o--> ()
+o|l|oo|ll --o--> ()o
+
+ooo|lll|ooooo|lllll --l--> ()ll
+ooo|lll|ooooo|lllll --l--> ()llll
+ooo|lll|ooooo|lllll --o--> ()oo
+ooo|lll|ooooo|lllll --o--> ()oooo
+
+l|ll|lll|llll --l--> ()
+l|ll|lll|llll --l--> ()l
+l|ll|lll|llll --l--> ()ll
+l|ll|lll|llll --l--> ()lll
+

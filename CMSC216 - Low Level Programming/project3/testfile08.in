@@ -1,0 +1,11 @@
+insert aa first
+insert ab second
+display keys
+display values
+__END__
+Insertion of aa => first succeeded.
+Insertion of ab => second succeeded.
+Key 1: aa
+Key 2: ab
+Value 1: first
+Value 2: second

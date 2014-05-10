@@ -1,0 +1,13 @@
+o
+l
+oo
+ol
+
+start o
+trans o o ()
+final ()
+
+start l*
+trans l* l ()l*
+trans ()l* l ()l*
+final l*

@@ -1,0 +1,11 @@
+insert a z
+insert f y
+display keys
+display values
+__END__
+Insertion of a => z succeeded.
+Insertion of f => y succeeded.
+Key 1: a
+Key 2: f
+Value 1: z
+Value 2: y

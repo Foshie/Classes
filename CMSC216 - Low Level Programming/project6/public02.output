@@ -1,0 +1,7 @@
+CORRECT: After sorting, arr[0] == college, should be college
+CORRECT: After sorting, arr[1] == computer, should be computer
+CORRECT: After sorting, arr[2] == maryland, should be maryland
+CORRECT: After sorting, arr[3] == of, should be of
+CORRECT: After sorting, arr[4] == park, should be park
+CORRECT: After sorting, arr[5] == science, should be science
+CORRECT: After sorting, arr[6] == university, should be university

@@ -1,0 +1,53 @@
+
+#	Josh Fann
+# 	109901918
+#	jfann
+
+#	prog3 finds the nth fibonacci number in the fibonacci sequence
+#	recursively.  Fibonacci number is Fn=Fn-1 + Fn-2 where n > 0 and
+#	F0 = 0, F1 = 1.
+
+Main:	irmovl	$0x1000, %esp	
+	rdint	%eax	 	# reads input value
+	pushl	%eax		# push n onto stack
+	call	Fib
+	wrint	%eax		# print %eax
+	irmovl	$10,	 %eax	# ch='\n'
+	wrch	%eax		# print newline
+	halt
+
+Fib:	pushl	%ebp		# save old frame pointer
+	rrmovl	%esp,	 %ebp	# set new frame pointer
+
+	irmovl	$2,	 %esi	# checkif n < 2
+	mrmovl	8(%ebp), %edi	# temp = n
+	subl	%esi,	 %edi	# temp = n-2
+	jge	Recurr	 	# if !(n<2) do recurrsion
+	mrmovl	8(%ebp), %eax	
+	jmp 	Return
+
+Recurr:	pushl	%edx		# temp register
+	
+	mrmovl	8(%ebp), %eax	# Get n
+	irmovl	$1,	 %esi	# do n--;
+	subl	%esi,	 %eax
+
+	pushl	%eax		# 
+	call	Fib		# calls Fib(n-1)
+	irmovl	$4,	 %esi
+	addl	%esi,	 %esp	# increment stack pointer
+	rrmovl	%eax,	 %edx	#
+
+	mrmovl	8(%ebp), %eax	# get n-2
+	irmovl	$2,	 %esi	# 
+	subl	%esi,	 %eax	# n = n-2
+	pushl	%eax
+	call	Fib		# calls Fib(n-2)
+	irmovl	$4,	 %esi	
+	addl	%esi,	 %esp	# increment stack pointer
+	addl	%edx,	 %eax	# fib(n-1) + fib(n-2)
+	
+	popl	%edx		# restore temp register	
+
+Return:	popl	%ebp
+	ret

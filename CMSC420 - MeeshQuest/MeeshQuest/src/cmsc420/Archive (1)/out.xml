@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city0"/>
+      <x value="6"/>
+      <y value="70"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city1"/>
+      <x value="68"/>
+      <y value="70"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city0"/>
+      <end value="city1"/>
+    </parameters>
+    <output>
+      <roadCreated end="city1" start="city0"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="printPMQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree order="2">
+        <gray x="64" y="64">
+          <black cardinality="2">
+            <city color="black" name="city0" radius="0" x="6" y="70"/>
+            <road end="city1" start="city0"/>
+          </black>
+          <black cardinality="2">
+            <city color="black" name="city1" radius="0" x="68" y="70"/>
+            <road end="city1" start="city0"/>
+          </black>
+          <white/>
+          <white/>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="saveMap"/>
+    <parameters>
+      <name value="pm2output1"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city2"/>
+      <x value="68"/>
+      <y value="5"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city1"/>
+      <end value="city2"/>
+    </parameters>
+    <output>
+      <roadCreated end="city2" start="city1"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="printPMQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree order="2">
+        <gray x="64" y="64">
+          <black cardinality="2">
+            <city color="black" name="city0" radius="0" x="6" y="70"/>
+            <road end="city1" start="city0"/>
+          </black>
+          <black cardinality="3">
+            <city color="black" name="city1" radius="0" x="68" y="70"/>
+            <road end="city1" start="city0"/>
+            <road end="city2" start="city1"/>
+          </black>
+          <white/>
+          <black cardinality="2">
+            <city color="black" name="city2" radius="0" x="68" y="5"/>
+            <road end="city2" start="city1"/>
+          </black>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="saveMap"/>
+    <parameters>
+      <name value="pm2output2"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city0"/>
+      <end value="city2"/>
+    </parameters>
+    <output>
+      <roadCreated end="city2" start="city0"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="printPMQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree order="2">
+        <gray x="64" y="64">
+          <black cardinality="3">
+            <city color="black" name="city0" radius="0" x="6" y="70"/>
+            <road end="city1" start="city0"/>
+            <road end="city2" start="city0"/>
+          </black>
+          <black cardinality="3">
+            <city color="black" name="city1" radius="0" x="68" y="70"/>
+            <road end="city1" start="city0"/>
+            <road end="city2" start="city1"/>
+          </black>
+          <black cardinality="1">
+            <road end="city2" start="city0"/>
+          </black>
+          <black cardinality="3">
+            <city color="black" name="city2" radius="0" x="68" y="5"/>
+            <road end="city2" start="city0"/>
+            <road end="city2" start="city1"/>
+          </black>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="saveMap"/>
+    <parameters>
+      <name value="pm2output3"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city3"/>
+      <x value="6"/>
+      <y value="5"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city0"/>
+      <end value="city3"/>
+    </parameters>
+    <output>
+      <roadCreated end="city3" start="city0"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="printPMQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree order="2">
+        <gray x="64" y="64">
+          <black cardinality="4">
+            <city color="black" name="city0" radius="0" x="6" y="70"/>
+            <road end="city1" start="city0"/>
+            <road end="city2" start="city0"/>
+            <road end="city3" start="city0"/>
+          </black>
+          <black cardinality="3">
+            <city color="black" name="city1" radius="0" x="68" y="70"/>
+            <road end="city1" start="city0"/>
+            <road end="city2" start="city1"/>
+          </black>
+          <gray x="32" y="32">
+            <black cardinality="2">
+              <road end="city2" start="city0"/>
+              <road end="city3" start="city0"/>
+            </black>
+            <black cardinality="1">
+              <road end="city2" start="city0"/>
+            </black>
+            <black cardinality="2">
+              <city color="black" name="city3" radius="0" x="6" y="5"/>
+              <road end="city3" start="city0"/>
+            </black>
+            <black cardinality="1">
+              <road end="city2" start="city0"/>
+            </black>
+          </gray>
+          <black cardinality="3">
+            <city color="black" name="city2" radius="0" x="68" y="5"/>
+            <road end="city2" start="city0"/>
+            <road end="city2" start="city1"/>
+          </black>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="saveMap"/>
+    <parameters>
+      <name value="pm2output4"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="clearAll"/>
+    <parameters/>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city0"/>
+      <x value="6"/>
+      <y value="100"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city1"/>
+      <x value="68"/>
+      <y value="100"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city2"/>
+      <x value="12"/>
+      <y value="75"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city3"/>
+      <x value="24"/>
+      <y value="75"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city4"/>
+      <x value="68"/>
+      <y value="5"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="city5"/>
+      <x value="6"/>
+      <y value="5"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city0"/>
+      <end value="city1"/>
+    </parameters>
+    <output>
+      <roadCreated end="city1" start="city0"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city0"/>
+      <end value="city5"/>
+    </parameters>
+    <output>
+      <roadCreated end="city5" start="city0"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city2"/>
+      <end value="city3"/>
+    </parameters>
+    <output>
+      <roadCreated end="city3" start="city2"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="mapRoad"/>
+    <parameters>
+      <start value="city3"/>
+      <end value="city4"/>
+    </parameters>
+    <output>
+      <roadCreated end="city4" start="city3"/>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="printPMQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree order="2">
+        <gray x="64" y="64">
+          <gray x="32" y="96">
+            <black cardinality="3">
+              <city color="black" name="city0" radius="0" x="6" y="100"/>
+              <road end="city1" start="city0"/>
+              <road end="city5" start="city0"/>
+            </black>
+            <black cardinality="1">
+              <road end="city1" start="city0"/>
+            </black>
+            <gray x="16" y="80">
+              <black cardinality="1">
+                <road end="city5" start="city0"/>
+              </black>
+              <white/>
+              <gray x="8" y="72">
+                <black cardinality="1">
+                  <road end="city5" start="city0"/>
+                </black>
+                <black cardinality="2">
+                  <city color="black" name="city2" radius="0" x="12" y="75"/>
+                  <road end="city3" start="city2"/>
+                </black>
+                <black cardinality="1">
+                  <road end="city5" start="city0"/>
+                </black>
+                <white/>
+              </gray>
+              <black cardinality="3">
+                <city color="black" name="city3" radius="0" x="24" y="75"/>
+                <road end="city3" start="city2"/>
+                <road end="city4" start="city3"/>
+              </black>
+            </gray>
+            <white/>
+          </gray>
+          <black cardinality="2">
+            <city color="black" name="city1" radius="0" x="68" y="100"/>
+            <road end="city1" start="city0"/>
+          </black>
+          <gray x="32" y="32">
+            <gray x="16" y="48">
+              <black cardinality="1">
+                <road end="city5" start="city0"/>
+              </black>
+              <black cardinality="1">
+                <road end="city4" start="city3"/>
+              </black>
+              <black cardinality="1">
+                <road end="city5" start="city0"/>
+              </black>
+              <white/>
+            </gray>
+            <black cardinality="1">
+              <road end="city4" start="city3"/>
+            </black>
+            <black cardinality="2">
+              <city color="black" name="city5" radius="0" x="6" y="5"/>
+              <road end="city5" start="city0"/>
+            </black>
+            <black cardinality="1">
+              <road end="city4" start="city3"/>
+            </black>
+          </gray>
+          <black cardinality="2">
+            <city color="black" name="city4" radius="0" x="68" y="5"/>
+            <road end="city4" start="city3"/>
+          </black>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command id="1" name="saveMap"/>
+    <parameters>
+      <name value="pm2output5"/>
+    </parameters>
+    <output/>
+  </success>
+</results>

@@ -1,0 +1,5 @@
+Inserting key = A00000001, testValue = University of Maryland, result=0
+Searching key = A00000001, result=0
+Searched value =University of Maryland
+Key count of table is 1
+Bucket count of table is 5

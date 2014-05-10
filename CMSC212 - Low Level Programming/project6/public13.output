@@ -1,0 +1,2 @@
+Correct values were accessed by two simultaneous iterators! :)
+No memory leak detected. :)

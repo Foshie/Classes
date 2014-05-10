@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use File::Basename;
+
+my $PROG = basename($0);
+usage() if @ARGV && $ARGV[0] =~ /^-[h?]/;
+my $tester = shift;
+my $filename = shift;
+usage() unless defined $filename;
+
+sub usage {
+  print STDERR <<EOF;
+Usage: $PROG <tester_program> <filename>
+
+   $PROG will read hash table commands from the file named on the command
+   line, and execute the tester program named on the command line, with
+   the filename passed as an argument to the tester program.  If there is
+   a line equal to the string "__END__", lines after it should be ignored
+   by the tester program.  Lines after __END__ will be compared to
+   the output of the tester program, and $PROG will report whether or
+   not the outputs match (i.e., if the implementation passes the test
+   comprised of the commands in the named file).
+
+   If no __END__ line exists, $PROG will simply execute the specified
+   tester program with the filename as an argument.
+
+
+   For example: 
+     $PROG ./hashtester test1.in
+
+     will run "./hashtester test1.in", and compare the output of that
+     command with all lines after __END__ in test1.in (assuming an
+     __END__ line is present - otherwise, no comparison will occur).
+EOF
+  exit 64;
+}
+
+my @expected_output;
+my $found_token = 0;
+open FILE, "<", $filename or die "$PROG: can't open $filename: $!\n";
+while (<FILE>) {
+  chomp;
+  ++$found_token and last if $_ eq "__END__";
+}
+while (<FILE>) {
+  push @expected_output, $_;
+}
+close FILE;
+
+if (! $found_token) {
+  print STDERR "Test case does not have __END__ token.  Not comparing...\n";
+  exec "$tester", "$filename";
+  die "$PROG: failed to exec: $!\n";
+}
+
+open TESTOUT, "$tester $filename 2>&1 |" or die "$PROG: can't open pipe: $!\n";
+while (<TESTOUT>) {
+  fail() unless @expected_output;
+  fail() if $_ ne shift(@expected_output);
+}
+close TESTOUT;
+fail("abnormal termination") if $?;
+fail() if @expected_output;
+pass();
+
+sub fail {
+  my $reason = shift;
+  $reason = "output mismatch" unless defined $reason;
+  print "Implementation FAILS: $reason\n";
+  exit -1;
+}
+
+sub pass {
+  print "Output matches expected output.  Implementation PASSES.\n";
+  exit 0;
+}

@@ -1,0 +1,12 @@
+Each of the public tests here should be compiled and linked against your
+mergesort implementation.  Testing should be done using diff in a manner
+similar to previous projects:
+
+  ./public01 | diff - public01.output
+
+Note that on the submit server, there is a 0-point "public test 5" that
+checks to make sure you have submitted all the required files.  If you
+are missing the REPORT file, you will fail this test; while you won't
+lose any points for failing the test, you will not receive the 25 points
+that the REPORT answers are worth, so it will be to your benefit to make
+sure you're passing that test.

@@ -1,0 +1,10 @@
+Instructions are:
+0: add    R1 R2 R3
+1: sub    R2 R3 R4
+2: mul    R3 R4 R5
+3: div    R5 R4 R3
+4: mod    R4 R3 R2
+5: not    R3 R2
+6: neg    R2 R1
+7: inc    R1 R0
+Instuctions should have been printed.

@@ -1,0 +1,10 @@
+Program is:
+10: add    R1 R2 R3
+11: sub    R2 R3 R4
+12: mul    R3 R4 R5
+13: div    R5 R4 R3
+14: mod    R4 R3 R2
+15: not    R3 R2
+16: neg    R2 R1
+17: inc    R1 R0
+Shifted program should have been printed.

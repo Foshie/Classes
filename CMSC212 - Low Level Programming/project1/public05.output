@@ -1,0 +1,13 @@
+Instructions are:
+0: and    R1 R3 R2
+1: or     R1 R3 R2
+2: xor    R1 R3 R2
+3: io     R0 R1
+4: move   R7 R6
+5: li     R1 123
+6: lo     R1 R2 17
+7: beq    R1 R2 10
+8: bne    R2 R1 2
+9: rtn    
+10: halt   
+Instuctions should have been printed.

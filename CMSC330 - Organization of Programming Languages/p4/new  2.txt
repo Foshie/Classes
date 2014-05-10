@@ -1,0 +1,12 @@
+ENil -> 
+	| ESelf -> 
+	| EInt (n)-> 
+	| EString (s)-> 
+	| ELocal x ->
+	| EField x -> 	
+	| EIf (e1, e2, e3) ->		
+	| ESeq (e1, e2) -> 	
+	| EWrite (x, e) -> 
+	| EWriteField (x, e) -> 
+	| ENew x -> 
+	| EInvoke (e, m, es) ->	

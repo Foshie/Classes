@@ -1,0 +1,14 @@
+      li   R1  1
+      lw   R2  num
+      move R3  R1
+loop: jsr  fn
+      bne  R1  R2 loop
+      io   R0  R3
+      li   R1  2
+      li   R2  10
+      io   R1  R2
+      halt
+fn:   mul  R3  R3 R1
+      inc  R1  R1
+      rtn
+num:  .data 8  # calculates 7!, which is 5040

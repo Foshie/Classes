@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command id="1" name="createCity"/>
+    <parameters>
+      <name value="Baltimore"/>
+      <x value="140"/>
+      <y value="37"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="2" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="1" leafOrder="2" type="Bplus">
+        <leaf>
+          <entry key="Baltimore" value="(140,37)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="3" name="createCity"/>
+    <parameters>
+      <name value="Chicago"/>
+      <x value="133"/>
+      <y value="34"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="4" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="2" leafOrder="2" type="Bplus">
+        <leaf>
+          <entry key="Baltimore" value="(140,37)"/>
+          <entry key="Chicago" value="(133,34)"/>
+        </leaf>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="5" name="createCity"/>
+    <parameters>
+      <name value="NewYork"/>
+      <x value="200"/>
+      <y value="300"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="6" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="3" leafOrder="2" type="Bplus">
+        <guide>
+          <leaf>
+            <entry key="Baltimore" value="(140,37)"/>
+          </leaf>
+          <key value="Chicago"/>
+          <leaf>
+            <entry key="Chicago" value="(133,34)"/>
+            <entry key="NewYork" value="(200,300)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="7" name="createCity"/>
+    <parameters>
+      <name value="Zurich"/>
+      <x value="1000"/>
+      <y value="1000"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="8" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="4" leafOrder="2" type="Bplus">
+        <guide>
+          <leaf>
+            <entry key="Baltimore" value="(140,37)"/>
+          </leaf>
+          <key value="Chicago"/>
+          <leaf>
+            <entry key="Chicago" value="(133,34)"/>
+          </leaf>
+          <key value="NewYork"/>
+          <leaf>
+            <entry key="NewYork" value="(200,300)"/>
+            <entry key="Zurich" value="(1000,1000)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="9" name="createCity"/>
+    <parameters>
+      <name value="Paris"/>
+      <x value="500"/>
+      <y value="400"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="10" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="5" leafOrder="2" type="Bplus">
+        <guide>
+          <leaf>
+            <entry key="Baltimore" value="(140,37)"/>
+          </leaf>
+          <key value="Chicago"/>
+          <leaf>
+            <entry key="Chicago" value="(133,34)"/>
+          </leaf>
+          <key value="NewYork"/>
+          <leaf>
+            <entry key="NewYork" value="(200,300)"/>
+          </leaf>
+          <key value="Paris"/>
+          <leaf>
+            <entry key="Paris" value="(500,400)"/>
+            <entry key="Zurich" value="(1000,1000)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="11" name="createCity"/>
+    <parameters>
+      <name value="Amsterdam"/>
+      <x value="450"/>
+      <y value="450"/>
+      <radius value="5"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command id="12" name="printHexTrie"/>
+    <parameters/>
+    <output>
+      <HexTrie cardinality="6" leafOrder="2" type="Bplus">
+        <guide>
+          <leaf>
+            <entry key="Amsterdam" value="(450,450)"/>
+            <entry key="Baltimore" value="(140,37)"/>
+          </leaf>
+          <key value="Chicago"/>
+          <leaf>
+            <entry key="Chicago" value="(133,34)"/>
+          </leaf>
+          <key value="NewYork"/>
+          <leaf>
+            <entry key="NewYork" value="(200,300)"/>
+          </leaf>
+          <key value="Paris"/>
+          <leaf>
+            <entry key="Paris" value="(500,400)"/>
+            <entry key="Zurich" value="(1000,1000)"/>
+          </leaf>
+        </guide>
+      </HexTrie>
+    </output>
+  </success>
+  <success>
+    <command id="13" name="clearAll"/>
+    <parameters/>
+    <output/>
+  </success>
+</results>

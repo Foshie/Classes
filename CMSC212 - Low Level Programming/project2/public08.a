@@ -1,0 +1,10 @@
+        li   R1 212
+        j    label2
+        li   R2 213
+label1: li   R3 214
+        j    label3
+        li   R4 215
+label2: li   R5 216
+        j    label1
+        li   R6 217
+label3: halt

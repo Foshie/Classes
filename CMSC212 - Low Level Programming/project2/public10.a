@@ -1,0 +1,5 @@
+li  R1 5
+li  R2 11
+sub R0 R1 R1
+li  R3 17  # should not be executed
+halt       # should not be executed

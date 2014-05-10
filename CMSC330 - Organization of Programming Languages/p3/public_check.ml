@@ -1,0 +1,21 @@
+#use "regexp.ml";;
+#use "testUtils.ml";;
+
+prt_bool (check (REConst 'o'));;
+prt_bool (check (REStar (REConst 'l')));;
+prt_bool (check (REConcat (REStar (REConst 'l'), REConst 'o')));;
+prt_bool (check (REConcat (REStar (REConst 'o'), REConst 'l')));;
+prt_bool (check (REConcat (REConst 'o', REConcat (REStar (REConst 'l'), REConst 'o'))));;
+prt_bool (check (REConcat (REConst 'l', REConcat (REStar (REConst 'o'), REConst 'o'))));;
+prt_bool (check (REUnion (REStar (REConst 'o'), REStar (REConst 'l'))));;
+prt_bool (check (REUnion (REConcat (REConst 'o', REStar (REConst 'l')), REConcat (REConst 'l', REStar (REConst 'o')))));;
+prt_bool (check (REUnion (REConcat (REStar (REConst 'l'), REConcat (REConst 'o', REStar (REConst 'l'))), REStar (REConst 'l'))));;
+prt_bool (check (REUnion (REConcat (REStar (REConst 'o'), REConst 'l'), REConcat (REConst 'o', REConst 'l'))));;
+prt_bool (check (REUnion (REConcat (REConst 'o', REConcat (REConst 'o', REConst 'o')), REConcat (REConst 'l', REConcat (REConst 'l', REConst 'l')))));;
+prt_bool (check (REUnion (REConcat (REConst 'o', REConcat (REConst 'l', REConcat (REConst 'o', REConst 'l'))), REConcat (REConst 'l', REConcat (REConst 'o', REConcat (REConst 'l', REConst 'o'))))));;
+prt_bool (check (REUnion (REConcat (REConst 'l', REConcat (REConst 'o', REConst 'o')), REUnion (REConcat (REConst 'o', REConcat (REConst 'l', REConst 'o')), REConcat (REConst 'o', REConcat (REConst 'o', REConst 'l'))))));;
+prt_bool (check (REUnion (REConcat (REConst 'l', REConcat (REConst 'l', REConst 'o')), REUnion (REConcat (REConst 'l', REConcat (REConst 'o', REConst 'l')), REConcat (REConst 'o', REConcat (REConst 'l', REConst 'l'))))));;
+prt_bool (check (REUnion (REConcat (REConst 'l', REConcat (REConst 'l', REConcat (REConst 'o', REConst 'o'))), REUnion (REConcat (REConst 'o', REConcat (REConst 'o', REConcat (REConst 'l', REConst 'l'))), REUnion (REConcat (REConst 'o', REConcat (REConst 'l', REConcat (REConst 'l', REConst 'o'))), REConcat (REConst 'l', REConcat (REConst 'o', REConcat (REConst 'o', REConst 'l'))))))));;
+prt_bool (check (REUnion (REConst 'o', REUnion (REConst 'l', REUnion (REConcat (REConst 'o', REConst 'o'), REConcat (REConst 'l', REConst 'l'))))));;
+prt_bool (check (REUnion (REConcat (REConst 'o', REConcat (REConst 'o', REConst 'o')), REUnion (REConcat (REConst 'l', REConcat (REConst 'l', REConst 'l')), REUnion (REConcat (REConst 'o', REConcat (REConst 'o', REConcat (REConst 'o', REConcat (REConst 'o', REConst 'o')))), REConcat (REConst 'l', REConcat (REConst 'l', REConcat (REConst 'l', REConcat (REConst 'l', REConst 'l')))))))));;
+prt_bool (check (REUnion (REConst 'l', REUnion (REConcat (REConst 'l', REConst 'l'), REUnion (REConcat (REConst 'l', REConcat (REConst 'l', REConst 'l')), REConcat (REConst 'l', REConcat (REConst 'l', REConcat (REConst 'l', REConst 'l'))))))));;

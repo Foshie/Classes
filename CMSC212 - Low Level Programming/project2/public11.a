@@ -1,0 +1,9 @@
+    li  R1 88
+    jsr fn
+    io  R0 R1
+    li  R2 2
+    li  R3 10  # newline character
+    io  R2 R3
+    halt
+fn: li  R1 99
+    rtn

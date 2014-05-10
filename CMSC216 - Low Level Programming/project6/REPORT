@@ -1,0 +1,43 @@
+Josh Fann
+Directory id: jfann  UID: 109901918
+Project 6
+
+Report answers:
+1.  Timing output was redirected from mergetest with passing
+in below parameters.
+Number of integers: 1000000
+Seed number: 5
+Maximum number: 10000
+0 threads: 0.481476s wall; 0.474928s user; 0.006999s sys
+1 threads: 0.496646s wall; 0.490926s user; 0.003999s sys
+2 threads: 0.262799s wall; 0.486926s user; 0.003000s sys
+4 threads: 0.175694s wall; 0.513922s user; 0.005999s sys
+
+2. Speedup:
+1 thread: 0.481476s/0.496646s = 0.9695 < 1
+2 threads: 0.481476s/0.262799s = 1.8321 
+4 threads: 0.481476s/0.175694s = 2.7404
+
+3. Speedup:
+1 thread: 0.474928s/0.490926s = 0.96741
+2 threads: 0.474928s/0.486926s = 0.97536
+4 threads: 0.474928s/0.513922s = .924125
+
+4. The increase in the number of threads causes time required to
+perform the mergesort of a randomly created array of integers is
+reduced when measuring the wall time and does not really differ 
+when running the user time.
+
+When doubling the number of threads, from 1 to 2 threads, the speedup
+is doubled.  When the number of threads is increased from 2 to 4, the
+speed up is increased by the original speed up of 1 thread.
+
+Therefore, increasing the number of threads by a factor of 2, the 
+speedup is increased by that factor times the original speedup of 1 thread.
+Relationship is increasing at an inversely exponential rate.
+
+0 to 1 threads: .9695
+1 to 2 threads: 1.832   Difference is approx. .9695
+2 to 4 threads: 2.740   Difference is approx. .9695
+
+speedup increased by .9695 when threads are increased by a power of 2.

@@ -1,0 +1,14 @@
+        li     R1 212
+        li     R2 250
+        sw     R1 data2
+        sw     R2 data1
+        move   R3 R0        # R3 should now contain 0, overwriting prior value
+        lo     R4 R3 data1
+        inc    R3 R3
+        inc    R3 R3
+        lo     R5 R3 data1  # now should copy the value in data3 to R5
+        lw     R1 data1
+        lw     R2 data2
+        halt
+data1: .data 0
+data2: .data 0

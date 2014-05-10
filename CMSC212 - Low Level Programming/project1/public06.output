@@ -1,0 +1,9 @@
+Instructions are:
+0: add    R1 R2 R3
+1: not    R3 R2
+2: jsr    40
+3: sw     R3 51
+4: li     R4 5
+5: lo     R1 R5 200
+6: beq    R1 R2 10
+Instuctions should have been printed.

@@ -1,0 +1,9 @@
+insert a b
+insert a z
+search a
+display key_count
+__END__
+Insertion of a => b succeeded.
+Insertion of a => z succeeded.
+Search for a succeeded (z).
+Key count: 1

@@ -1,0 +1,114 @@
+
+#	Josh Fann
+#	109901918
+#	jfann
+
+#	prog2 takes in an array of user inputed size.  Then prints the array
+#	in increasing order with one space between each number and ending with
+# 	a new line.
+
+Main:	rdint	%eax		# scanf()=n
+	irmovl	$0,	 %ecx	# count = 0
+	irmovl	$0,	 %esp	# %esp - used as flag variable to 
+			 	# find first printed num
+	rdint	%ebx		# scanf()=key
+	addl	%ecx,	 %eax	# n+0=n  Checks if(n==0)
+	je	Print		# Jumps to end where prints newline and halts
+
+Loop1:	irmovl	Array,	 %edi
+
+	irmovl	$4,	 %esi	# 
+	multl	%ecx,	 %esi	# temp = 4*index
+	addl	%esi,	 %edi	# Goes to indexed value of array
+	rdint	%esi		# read in arr[count]
+	rmmovl	%esi,	(%edi)	# arr[count] = %esi
+	
+Check1:	irmovl	$1,	 %esi	# Use %edx as increment
+	addl	%esi,	 %ecx	# count++
+	rrmovl	%eax,	 %esi	# temp = n
+	subl	%ecx,	 %esi	# n = n-count
+	jg	Loop1	 	# if(n-count > 0) go to loop1
+
+End1:	irmovl	$0,	 %ecx	# count = 0
+
+Loop2:	irmovl	Array,	 %edi
+
+	irmovl	$4,	 %esi	# get arr[count]
+	multl	%ecx,	 %esi	# 
+	addl	%esi,	 %edi
+	mrmovl	(%edi),	 %esi	# Read arr[count] into %esi
+	subl	%ebx,	 %esi	# temp = arr[i] - key
+	jge	Check2		# if(arr[i]-key > 0) then will not print arr[i]
+	irmovl	$1,	 %esi	# Checks if a number has already been printed
+	andl	%esi,	 %esp	# if it has, flag & 1 will return 1. 
+			 	# Which will add space.
+	je	Print2
+	irmovl	$32,	 %esi	# ch = ' '
+	wrch	%esi		# printf(" ");
+Print2:	mrmovl	(%edi),	%esi	# arr[i] = arr[i] + key, 
+			 	# resets what it was originally
+	wrint	%esi		# printf(arr[i]);
+	irmovl	$1,	 %esp	# sets flag variable to 1.
+
+Check2:	irmovl	$1,	 %esi	# Use %si as incrmenet
+	addl	%esi,	 %ecx	# count++
+	rrmovl	%eax,	 %esi	# temp = n
+	subl	%ecx,	 %esi	# temp = n - count
+	jg	Loop2
+
+End2:	irmovl	$0,	 %ecx	# count = 0
+
+Loop3:	irmovl	Array,	 %edi	# sets edi to array[0]
+	irmovl	$4,	 %esi	# finds index of array at count*4
+	multl	%ecx,	 %esi
+	addl	%esi,	 %edi	# sets edi to array[count]
+
+	mrmovl	(%edi),	 %esi	# moves to arr[count] to register
+	subl	%ebx,	 %esi	# checks if arr[count]-key ==0
+	jne	Check3
+	irmovl	$1,	 %esi	# Checks flag like in loop2
+	andl	%esi,	 %esp	#
+	je	Print3
+
+	irmovl	$32,	 %esi
+	wrch	%esi
+Print3:	wrint	%ebx
+	irmovl	$1,	 %esp
+
+Check3:	irmovl	$1,	 %esi	# Checks increment loop
+	addl	%esi,	 %ecx
+	rrmovl	%eax,	 %esi
+	subl	%ecx,	 %esi
+	jg	Loop3
+
+End3:	irmovl	$0,	 %ecx
+
+Loop4:	irmovl	Array,	 %edi
+	irmovl	$4,	 %esi
+	multl	%ecx,	 %esi	# index = 4*count
+	addl	%esi,	 %edi
+
+	mrmovl	(%edi),	 %esi	# Read arr[i] into %esi
+	subl	%ebx,	 %esi	# arr[i] = arr[i] - key
+	jle	Check4		# if(arr[i]-key <0) then will not print arr[i]
+	irmovl	$1,	 %esi	# Checks flag like in Loop2
+	andl	%esi,	 %esp
+	je	Print4
+	irmovl	$32,	 %esi	# ch = ' '
+	wrch	%esi		# printf(" ");
+Print4:	mrmovl	(%edi),	 %esi	# Restores what arr[i] used to be
+	wrint	%esi		# printf(arr[i]);
+
+
+Check4:	irmovl	$1,	 %esi
+	addl	%esi,	 %ecx	# count++
+	rrmovl	%eax,	 %esi	# temp = n
+	subl	%ecx,	 %esi	# temp = n-count
+	jg	Loop4	 	# if 
+
+Print:	irmovl	$10,	 %eax	# ch = '\n'
+	wrch	%eax		# printf('\n')
+	halt
+
+	.align	4
+Array:	.pos	2000		# Creates size of array

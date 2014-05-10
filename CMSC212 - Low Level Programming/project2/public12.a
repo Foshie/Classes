@@ -1,0 +1,7 @@
+li   R1 3
+li   R2 5
+li   R3 9
+add  R4 R2 R3
+sub  R5 R3 R2
+halt
+

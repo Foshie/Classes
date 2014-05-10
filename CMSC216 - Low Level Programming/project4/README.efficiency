@@ -1,0 +1,13 @@
+For this project, the efficiency grading was done via the submit server,
+in secret tests 15-19.  Each of these tests was worth one point.  Tests
+were designed such that you had to obtain the correct result for a large
+input, and do so in no more than a given number of steps.  The table
+below gives the programs, inputs, and the thresholds necessary to obtain
+the five efficiency points.
+
+Program   Max. Steps   Input			Secret Test Number
+prog1     200          610 987				00
+prog2     600          5 7 7 7 7 8 7			07
+prog2     50000        500 4 383 386 277 ...		15
+prog3     10000	       10				18
+prog3     60000	       14				16

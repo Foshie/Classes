@@ -1,0 +1,32 @@
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="part3in.xsd" spatialWidth="128" spatialHeight="128" pmOrder="2" leafOrder="8">
+<createCity id="1" name="city0" x="6" y="70" radius="0" color="black"/>
+<createCity id="1" name="city1" x="68" y="70" radius="0" color="black"/>
+<mapRoad id="1" start="city0" end="city1"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="pm2output1"/>
+<createCity id="1" name="city2" x="68" y="5" radius="0" color="black"/>
+<mapRoad id="1" start="city1" end="city2"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="pm2output2"/>
+<mapRoad id="1" start="city0" end="city2"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="pm2output3"/>
+<createCity id="1" name="city3" x="6" y="5" radius="0" color="black"/>
+<mapRoad id="1" start="city0" end="city3"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="pm2output4"/>
+<clearAll id="1"/>
+<createCity id="1" name="city0" x="6" y="100" radius="0" color="black"/>
+<createCity id="1" name="city1" x="68" y="100" radius="0" color="black"/>
+<createCity id="1" name="city2" x="12" y="75" radius="0" color="black"/>
+<createCity id="1" name="city3" x="24" y="75" radius="0" color="black"/>
+<createCity id="1" name="city4" x="68" y="5" radius="0" color="black"/>
+<createCity id="1" name="city5" x="6" y="5" radius="0" color="black"/>
+<mapRoad id="1" start="city0" end="city1"/>
+<mapRoad id="1" start="city0" end="city5"/>
+<mapRoad id="1" start="city2" end="city3"/>
+<mapRoad id="1" start="city3" end="city4"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="pm2output5"/>
+</commands>
+

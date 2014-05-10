@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : test_listCities.xml
+    Created on : March 27, 2007, 11:14 PM
+    Author     : Colin P
+    Description:
+        Test more than just the listing, but also your create and delete.
+-->
+
+<commands xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='http://www.cs.umd.edu/users/meesh/420/part1/part1in.xsd'
+    spatialHeight="1024" spatialWidth="1024">
+    <!-- Create the cities first -->
+    <createCity name="Baltimore" y="39" x="76" radius="30" color="black"/>
+    <createCity name="Chicago" x="81" y="47" radius="35" color="black"/>
+    <createCity name="Atlanta" x="84" y="33" radius="40" color="black"/>
+    <!-- List by name -->
+    <listCities sortBy="name"/>
+    <listCities sortBy="coordinate"/>
+    <!-- test your deleteCity on a valid call -->
+    <deleteCity name="Chicago"/>
+    <listCities sortBy="name"/>
+    <listCities sortBy="coordinate"/>
+    <!-- get rid of all the cities -->
+    <deleteCity name="Atlanta"/>
+    <deleteCity name="Baltimore"/>
+    <!-- error noCitiesToList -->
+    <listCities sortBy="name"/>
+    <listCities sortBy="coordinate"/>
+</commands>

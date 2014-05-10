@@ -1,0 +1,2 @@
+execute_program()'s return value (ACTIVE) is correct!
+Registers are correct after execute_program() call!

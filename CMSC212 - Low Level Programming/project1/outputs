@@ -1,0 +1,6 @@
+Instructions are:
+10: j 2
+11: jsr 3
+12: sw R3 1
+13: lw R2 4
+Instuctions should have been printed.

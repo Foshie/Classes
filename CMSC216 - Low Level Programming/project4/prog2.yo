@@ -1,0 +1,105 @@
+  0x000: f208         | Main:	rdint	%eax		# scanf()=n
+  0x002: 308100000000 | 	irmovl	$0,	 %ecx	# count = 0
+  0x008: 308400000000 | 	irmovl	$0,	 %esp	# %esp - used as flag variable to 
+                      | 			 	# find first printed num
+  0x00e: f238         | 	rdint	%ebx		# scanf()=key
+  0x010: 6010         | 	addl	%ecx,	 %eax	# n+0=n  Checks if(n==0)
+  0x012: 7339010000   | 	je	Print		# Jumps to end where prints newline and halts
+                      | 
+  0x017: 308744010000 | Loop1:	irmovl	Array,	 %edi
+                      | 
+  0x01d: 308604000000 | 	irmovl	$4,	 %esi	# 
+  0x023: 6416         | 	multl	%ecx,	 %esi	# temp = 4*index
+  0x025: 6067         | 	addl	%esi,	 %edi	# Goes to indexed value of array
+  0x027: f268         | 	rdint	%esi		# read in arr[count]
+  0x029: 406700000000 | 	rmmovl	%esi,	(%edi)	# arr[count] = %esi
+                      | 	
+  0x02f: 308601000000 | Check1:	irmovl	$1,	 %esi	# Use %edx as increment
+  0x035: 6061         | 	addl	%esi,	 %ecx	# count++
+  0x037: 2006         | 	rrmovl	%eax,	 %esi	# temp = n
+  0x039: 6116         | 	subl	%ecx,	 %esi	# n = n-count
+  0x03b: 7617000000   | 	jg	Loop1	 	# if(n-count > 0) go to loop1
+                      | 
+  0x040: 308100000000 | End1:	irmovl	$0,	 %ecx	# count = 0
+                      | 
+  0x046: 308744010000 | Loop2:	irmovl	Array,	 %edi
+                      | 
+  0x04c: 308604000000 | 	irmovl	$4,	 %esi	# get arr[count]
+  0x052: 6416         | 	multl	%ecx,	 %esi	# 
+  0x054: 6067         | 	addl	%esi,	 %edi
+  0x056: 506700000000 | 	mrmovl	(%edi),	 %esi	# Read arr[count] into %esi
+  0x05c: 6136         | 	subl	%ebx,	 %esi	# temp = arr[i] - key
+  0x05e: 7586000000   | 	jge	Check2		# if(arr[i]-key > 0) then will not print arr[i]
+  0x063: 308601000000 | 	irmovl	$1,	 %esi	# Checks if a number has already been printed
+  0x069: 6264         | 	andl	%esi,	 %esp	# if it has, flag & 1 will return 1. 
+                      | 			 	# Which will add space.
+  0x06b: 7378000000   | 	je	Print2
+  0x070: 308620000000 | 	irmovl	$32,	 %esi	# ch = ' '
+  0x076: f168         | 	wrch	%esi		# printf(" ");
+  0x078: 506700000000 | Print2:	mrmovl	(%edi),	%esi	# arr[i] = arr[i] + key, 
+                      | 			 	# resets what it was originally
+  0x07e: f368         | 	wrint	%esi		# printf(arr[i]);
+  0x080: 308401000000 | 	irmovl	$1,	 %esp	# sets flag variable to 1.
+                      | 
+  0x086: 308601000000 | Check2:	irmovl	$1,	 %esi	# Use %si as incrmenet
+  0x08c: 6061         | 	addl	%esi,	 %ecx	# count++
+  0x08e: 2006         | 	rrmovl	%eax,	 %esi	# temp = n
+  0x090: 6116         | 	subl	%ecx,	 %esi	# temp = n - count
+  0x092: 7646000000   | 	jg	Loop2
+                      | 
+  0x097: 308100000000 | End2:	irmovl	$0,	 %ecx	# count = 0
+                      | 
+  0x09d: 308744010000 | Loop3:	irmovl	Array,	 %edi	# sets edi to array[0]
+  0x0a3: 308604000000 | 	irmovl	$4,	 %esi	# finds index of array at count*4
+  0x0a9: 6416         | 	multl	%ecx,	 %esi
+  0x0ab: 6067         | 	addl	%esi,	 %edi	# sets edi to array[count]
+                      | 
+  0x0ad: 506700000000 | 	mrmovl	(%edi),	 %esi	# moves to arr[count] to register
+  0x0b3: 6136         | 	subl	%ebx,	 %esi	# checks if arr[count]-key ==0
+  0x0b5: 74d7000000   | 	jne	Check3
+  0x0ba: 308601000000 | 	irmovl	$1,	 %esi	# Checks flag like in loop2
+  0x0c0: 6264         | 	andl	%esi,	 %esp	#
+  0x0c2: 73cf000000   | 	je	Print3
+                      | 
+  0x0c7: 308620000000 | 	irmovl	$32,	 %esi
+  0x0cd: f168         | 	wrch	%esi
+  0x0cf: f338         | Print3:	wrint	%ebx
+  0x0d1: 308401000000 | 	irmovl	$1,	 %esp
+                      | 
+  0x0d7: 308601000000 | Check3:	irmovl	$1,	 %esi	# Checks increment loop
+  0x0dd: 6061         | 	addl	%esi,	 %ecx
+  0x0df: 2006         | 	rrmovl	%eax,	 %esi
+  0x0e1: 6116         | 	subl	%ecx,	 %esi
+  0x0e3: 769d000000   | 	jg	Loop3
+                      | 
+  0x0e8: 308100000000 | End3:	irmovl	$0,	 %ecx
+                      | 
+  0x0ee: 308744010000 | Loop4:	irmovl	Array,	 %edi
+  0x0f4: 308604000000 | 	irmovl	$4,	 %esi
+  0x0fa: 6416         | 	multl	%ecx,	 %esi	# index = 4*count
+  0x0fc: 6067         | 	addl	%esi,	 %edi
+                      | 
+  0x0fe: 506700000000 | 	mrmovl	(%edi),	 %esi	# Read arr[i] into %esi
+  0x104: 6136         | 	subl	%ebx,	 %esi	# arr[i] = arr[i] - key
+  0x106: 7128010000   | 	jle	Check4		# if(arr[i]-key <0) then will not print arr[i]
+  0x10b: 308601000000 | 	irmovl	$1,	 %esi	# Checks flag like in Loop2
+  0x111: 6264         | 	andl	%esi,	 %esp
+  0x113: 7320010000   | 	je	Print4
+  0x118: 308620000000 | 	irmovl	$32,	 %esi	# ch = ' '
+  0x11e: f168         | 	wrch	%esi		# printf(" ");
+  0x120: 506700000000 | Print4:	mrmovl	(%edi),	 %esi	# Restores what arr[i] used to be
+  0x126: f368         | 	wrint	%esi		# printf(arr[i]);
+                      | 
+                      | 
+  0x128: 308601000000 | Check4:	irmovl	$1,	 %esi
+  0x12e: 6061         | 	addl	%esi,	 %ecx	# count++
+  0x130: 2006         | 	rrmovl	%eax,	 %esi	# temp = n
+  0x132: 6116         | 	subl	%ecx,	 %esi	# temp = n-count
+  0x134: 76ee000000   | 	jg	Loop4	 	# if 
+                      | 
+  0x139: 30800a000000 | Print:	irmovl	$10,	 %eax	# ch = '\n'
+  0x13f: f108         | 	wrch	%eax		# printf('\n')
+  0x141: 10           | 	halt
+                      | 
+  0x144:              | 	.align	4
+  0x7d0:              | Array:	.pos	2000		# Creates size of array

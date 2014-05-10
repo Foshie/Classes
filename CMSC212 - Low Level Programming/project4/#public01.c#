@@ -1,0 +1,25 @@
+ /*
+ * CMSC 212, Spring 2010, Project #4
+ * Public test 01 (public01.c)
+ *
+ * Creates a filesystem with one valid directory and lists its contents.
+ */
+
+#include <stdio.h>
+#include "filesystem.h"
+
+int main(){
+
+  Filesystem f;
+
+  mkfs(&f);
+
+  mkdir(&f, "Animals");
+
+  ls(f, ".");
+  printf("\n");
+
+  rmfs(&f);
+i
+  return 0;
+}

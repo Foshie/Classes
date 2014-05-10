@@ -1,0 +1,44 @@
+  0x000: 308400100000 | Main:	irmovl	$0x1000, %esp	
+  0x006: f208         | 	rdint	%eax	 	# reads input value
+  0x008: a008         | 	pushl	%eax		# push n onto stack
+  0x00a: 801a000000   | 	call	Fib
+  0x00f: f308         | 	wrint	%eax		# print %eax
+  0x011: 30800a000000 | 	irmovl	$10,	 %eax	# ch='\n'
+  0x017: f108         | 	wrch	%eax		# print newline
+  0x019: 10           | 	halt
+                      | 
+  0x01a: a058         | Fib:	pushl	%ebp		# save old frame pointer
+  0x01c: 2045         | 	rrmovl	%esp,	 %ebp	# set new frame pointer
+                      | 
+  0x01e: 308602000000 | 	irmovl	$2,	 %esi	# checkif n < 2
+  0x024: 507508000000 | 	mrmovl	8(%ebp), %edi	# temp = n
+  0x02a: 6167         | 	subl	%esi,	 %edi	# temp = n-2
+  0x02c: 753c000000   | 	jge	Recurr	 	# if !(n<2) do recurrsion
+  0x031: 500508000000 | 	mrmovl	8(%ebp), %eax	
+  0x037: 707e000000   | 	jmp 	Return
+                      | 
+  0x03c: a028         | Recurr:	pushl	%edx		# temp register
+                      | 	
+  0x03e: 500508000000 | 	mrmovl	8(%ebp), %eax	# Get n
+  0x044: 308601000000 | 	irmovl	$1,	 %esi	# do n--;
+  0x04a: 6160         | 	subl	%esi,	 %eax
+                      | 
+  0x04c: a008         | 	pushl	%eax		# 
+  0x04e: 801a000000   | 	call	Fib		# calls Fib(n-1)
+  0x053: 308604000000 | 	irmovl	$4,	 %esi
+  0x059: 6064         | 	addl	%esi,	 %esp	# increment stack pointer
+  0x05b: 2002         | 	rrmovl	%eax,	 %edx	#
+                      | 
+  0x05d: 500508000000 | 	mrmovl	8(%ebp), %eax	# get n-2
+  0x063: 308602000000 | 	irmovl	$2,	 %esi	# 
+  0x069: 6160         | 	subl	%esi,	 %eax	# n = n-2
+  0x06b: a008         | 	pushl	%eax
+  0x06d: 801a000000   | 	call	Fib		# calls Fib(n-2)
+  0x072: 308604000000 | 	irmovl	$4,	 %esi	
+  0x078: 6064         | 	addl	%esi,	 %esp	# increment stack pointer
+  0x07a: 6020         | 	addl	%edx,	 %eax	# fib(n-1) + fib(n-2)
+                      | 	
+  0x07c: b028         | 	popl	%edx		# restore temp register	
+                      | 
+  0x07e: b058         | Return:	popl	%ebp
+  0x080: 90           | 	ret

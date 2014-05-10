@@ -1,0 +1,8 @@
+#!/bin/sh
+
+for d in public_*.rb
+do 
+	echo $d
+        ruby $d
+	echo
+done

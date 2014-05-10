@@ -1,0 +1,93 @@
+start ooo|lll
+trans ()l l ()
+trans ()ll l ()l
+trans ()oo o ()o
+trans ooo|lll l ()ll
+trans ooo|lll o ()oo
+trans ()o o ()
+final ()
+
+start olol|lolo
+trans ()l l ()
+trans ()o o ()
+trans ()lo l ()o
+trans ()olo o ()lo
+trans ()ol o ()l
+trans ()lol l ()ol
+trans olol|lolo l ()olo
+trans olol|lolo o ()lol
+final ()
+
+start loo|olo|ool
+trans ()l l ()
+trans ()oo o ()o
+trans ()o o ()
+trans ()lo l ()o
+trans loo|olo|ool l ()oo
+trans loo|olo|ool o ()lo
+trans loo|olo|ool o ()ol
+trans ()ol o ()l
+final ()
+
+start llo|lol|oll
+trans ()l l ()
+trans ()ll l ()l
+trans ()o o ()
+trans ()lo l ()o
+trans ()ol o ()l
+trans llo|lol|oll l ()lo
+trans llo|lol|oll l ()ol
+trans llo|lol|oll o ()ll
+final ()
+
+start lloo|ooll|ollo|lool
+trans ()l l ()
+trans ()ool o ()ol
+trans ()loo l ()oo
+trans ()ll l ()l
+trans ()oo o ()o
+trans ()o o ()
+trans ()llo l ()lo
+trans ()oll o ()ll
+trans ()lo l ()o
+trans ()ol o ()l
+trans lloo|ooll|ollo|lool l ()loo
+trans lloo|ooll|ollo|lool l ()ool
+trans lloo|ooll|ollo|lool o ()oll
+trans lloo|ooll|ollo|lool o ()llo
+final ()
+
+start o|l|oo|ll
+trans ()l l ()
+trans ()o o ()
+trans o|l|oo|ll l ()
+trans o|l|oo|ll l ()l
+trans o|l|oo|ll o ()
+trans o|l|oo|ll o ()o
+final ()
+
+start ooo|lll|ooooo|lllll
+trans ()lll l ()ll
+trans ()l l ()
+trans ()llll l ()lll
+trans ()ll l ()l
+trans ()oo o ()o
+trans ()ooo o ()oo
+trans ()o o ()
+trans ()oooo o ()ooo
+trans ooo|lll|ooooo|lllll l ()ll
+trans ooo|lll|ooooo|lllll l ()llll
+trans ooo|lll|ooooo|lllll o ()oo
+trans ooo|lll|ooooo|lllll o ()oooo
+final ()
+
+start l|ll|lll|llll
+trans ()lll l ()ll
+trans ()l l ()
+trans ()ll l ()l
+trans l|ll|lll|llll l ()
+trans l|ll|lll|llll l ()l
+trans l|ll|lll|llll l ()ll
+trans l|ll|lll|llll l ()lll
+final ()
+

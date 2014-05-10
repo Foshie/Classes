@@ -1,0 +1,2 @@
+pop_count(0x2) is 1
+pop_count(0xf0) is 4

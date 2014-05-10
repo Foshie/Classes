@@ -1,0 +1,12 @@
+Program is:
+100: add R1 R2 R3
+101: .data: 175
+102: mul R3 R4 R5
+103: .data: 751
+104: mod R4 R3 R2
+105: .data: 571
+106: neg R2 R1
+107: .data: 715
+108: .data: 517
+109: .data: 157
+Shifted program should have been printed.

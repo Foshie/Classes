@@ -1,0 +1,47 @@
+insert a z
+insert b y
+insert c x
+display key_count
+display keys
+display values
+delete a
+search a
+display key_count
+display keys
+display values
+insert a z
+delete b
+search b
+display key_count
+display keys
+display values
+reset
+display key_count
+__END__
+Insertion of a => z succeeded.
+Insertion of b => y succeeded.
+Insertion of c => x succeeded.
+Key count: 3
+Key 1: a
+Key 2: b
+Key 3: c
+Value 1: z
+Value 2: y
+Value 3: x
+Deletion of a succeeded.
+Search for a failed.
+Key count: 2
+Key 1: b
+Key 2: c
+Value 1: y
+Value 2: x
+Insertion of a => z succeeded.
+Deletion of b succeeded.
+Search for b failed.
+Key count: 2
+Key 1: a
+Key 2: c
+Value 1: z
+Value 2: x
+Table reset.
+Key count: 0

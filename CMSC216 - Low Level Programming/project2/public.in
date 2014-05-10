@@ -1,0 +1,16 @@
+# insert a few area codes
+insert 202 Washington_DC
+insert 240 W_Maryland
+insert 443 E_Maryland
+
+# delete one
+delete 202
+
+# is 299 here?
+search 299
+
+# other stuff
+display key_count
+display table
+reset
+display table

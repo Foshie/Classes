@@ -1,0 +1,62 @@
+nfa:
+Loremipsumdolorsitametconsecteturadipiscingelit
+Time elapsed 200.0 milliseconds
+dfa:
+Loremipsumdolorsitametconsecteturadipiscingelit
+Time elapsed 227.0 milliseconds
+Ruby regexp:
+Time elapsed 8.0 milliseconds
+nfa:
+Integertempusdiamnonorciplaceratquisaliquamliberoporta
+Time elapsed 297.0 milliseconds
+dfa:
+Integertempusdiamnonorciplaceratquisaliquamliberoporta
+Time elapsed 249.0 milliseconds
+Ruby regexp:
+Time elapsed 9.0 milliseconds
+nfa:
+Integerposuereaccumsanbibendum
+Time elapsed 164.0 milliseconds
+dfa:
+Integerposuereaccumsanbibendum
+Time elapsed 103.0 milliseconds
+Ruby regexp:
+Time elapsed 9.0 milliseconds
+nfa:
+Invelquamnequevehicularutrumlibero
+VestibulumliberonibhvulputatesedadipiscingeumolestiequislacusNullaquissapieneratidpretiumerat
+Time elapsed 681.0 milliseconds
+dfa:
+Invelquamnequevehicularutrumlibero
+VestibulumliberonibhvulputatesedadipiscingeumolestiequislacusNullaquissapieneratidpretiumerat
+Time elapsed 710.0 milliseconds
+Ruby regexp:
+Time elapsed 8.0 milliseconds
+Time elapsed 11.0 milliseconds
+nfa:
+NullamenimodiocondimentumetmollisvelconvallisnonpurusSedpretiumviverraauctor
+Nullamaturpismetusnecblanditlacus
+Time elapsed 611.0 milliseconds
+dfa:
+NullamenimodiocondimentumetmollisvelconvallisnonpurusSedpretiumviverraauctor
+Nullamaturpismetusnecblanditlacus
+Time elapsed 596.0 milliseconds
+Ruby regexp:
+Time elapsed 9.0 milliseconds
+Time elapsed 8.0 milliseconds
+nfa:
+Nuncornarevehiculaestinfaucibus
+Time elapsed 146.0 milliseconds
+dfa:
+Nuncornarevehiculaestinfaucibus
+Time elapsed 125.0 milliseconds
+Ruby regexp:
+Time elapsed 8.0 milliseconds
+nfa:
+CrasornareportamiidcommodoMorbiimperdietdolorutenimultricesfeugiat
+Time elapsed 376.0 milliseconds
+dfa:
+CrasornareportamiidcommodoMorbiimperdietdolorutenimultricesfeugiat
+Time elapsed 314.0 milliseconds
+Ruby regexp:
+Time elapsed 8.0 milliseconds

@@ -1,0 +1,10 @@
+        li  R1 17
+        sw  R1 data1
+        lw  R2 data1
+        beq R1 R2 label1
+        li  R3 18  # should be skipped
+label1: j label2
+        li  R4 19  # should be skipped
+label2: li  R5 20
+        halt
+data1:  .data 0

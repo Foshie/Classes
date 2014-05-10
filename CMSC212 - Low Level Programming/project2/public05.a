@@ -1,0 +1,6 @@
+li   R1 212
+li   R2 250
+li   R3 240
+move R4 R2
+move R5 R1
+halt

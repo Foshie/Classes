@@ -1,0 +1,14 @@
+search a
+insert a b
+search a
+display key_count
+reset
+display key_count
+display keys
+__END__
+Search for a failed.
+Insertion of a => b succeeded.
+Search for a succeeded (b).
+Key count: 1
+Table reset.
+Key count: 0

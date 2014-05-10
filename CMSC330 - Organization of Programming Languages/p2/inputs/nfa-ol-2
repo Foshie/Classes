@@ -1,0 +1,67 @@
+start o
+trans o o ()
+final ()
+
+start l*
+trans l* l ()l*
+trans ()l* l ()l*
+final l*
+
+start l*o
+trans ()l*o l ()l*o
+trans ()l*o o ()
+trans l*o l ()l*o
+trans l*o o ()
+final ()
+
+start o*l
+trans ()o*l l ()
+trans ()o*l o ()o*l
+trans o*l l ()
+trans o*l o ()o*l
+final ()
+
+start ol*o
+trans ol*o o ()l*o
+trans ()l*o l ()l*o
+trans ()l*o o ()
+final ()
+
+start lo*o
+trans lo*o l ()o*o
+trans ()o*o o ()o*o
+trans ()o*o o ()
+final ()
+
+start o*|l*
+trans ()o* o ()o*
+trans ()l* l ()l*
+trans o*|l* l ()l*
+trans o*|l* o ()o*
+final o*|l*
+
+start ol*|lo*
+trans ol*|lo* l ()o*
+trans ol*|lo* o ()l*
+trans ()o* o ()o*
+trans ()l* l ()l*
+final ()l*
+
+start l*ol*|l*
+trans l*ol*|l* l ()l*ol*
+trans l*ol*|l* l ()l*
+trans l*ol*|l* o ()l*
+trans ()l*ol* l ()l*ol*
+trans ()l*ol* o ()l*
+trans ()l* l ()l*
+final l*ol*|l*
+
+start o*l|ol
+trans ()l l ()
+trans o*l|ol l ()
+trans o*l|ol o ()o*l
+trans o*l|ol o ()l
+trans ()o*l l ()
+trans ()o*l o ()o*l
+final ()
+

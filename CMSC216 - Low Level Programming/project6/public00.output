@@ -1,0 +1,10 @@
+CORRECT: After sorting, arr[0] == 0, should be 0
+CORRECT: After sorting, arr[1] == 1, should be 1
+CORRECT: After sorting, arr[2] == 2, should be 2
+CORRECT: After sorting, arr[3] == 3, should be 3
+CORRECT: After sorting, arr[4] == 4, should be 4
+CORRECT: After sorting, arr[5] == 5, should be 5
+CORRECT: After sorting, arr[6] == 6, should be 6
+CORRECT: After sorting, arr[7] == 7, should be 7
+CORRECT: After sorting, arr[8] == 8, should be 8
+CORRECT: After sorting, arr[9] == 9, should be 9

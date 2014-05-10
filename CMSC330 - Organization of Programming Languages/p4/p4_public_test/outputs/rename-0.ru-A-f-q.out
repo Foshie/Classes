@@ -1,0 +1,8 @@
+class A < Object
+    def f(p, t)
+    p.+(t)
+  end
+
+end
+
+nil

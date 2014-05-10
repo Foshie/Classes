@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="cehfbd"/>
+      <x value="1055"/>
+      <y value="173"/>
+      <radius value="98"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="cehfbd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="cehfbd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="cehfbd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="egcbfa"/>
+      <x value="7423"/>
+      <y value="550"/>
+      <radius value="43"/>
+      <color value="orange"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="egcbfa"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bdceha"/>
+      <x value="3148"/>
+      <y value="7589"/>
+      <radius value="70"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bdceha"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="dhcgaf"/>
+      <x value="2494"/>
+      <y value="7167"/>
+      <radius value="58"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="dhcgaf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hecbgf"/>
+      <x value="4493"/>
+      <y value="3517"/>
+      <radius value="60"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hecbgf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="hecbgf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="hecbgf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="agbhfd"/>
+      <x value="2992"/>
+      <y value="6540"/>
+      <radius value="48"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="agbhfd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="gdceab"/>
+      <x value="7141"/>
+      <y value="7899"/>
+      <radius value="25"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="gdceab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="gdceab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="gdceab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bedahg"/>
+      <x value="4905"/>
+      <y value="3333"/>
+      <radius value="37"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bedahg"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hfecbd"/>
+      <x value="3438"/>
+      <y value="4765"/>
+      <radius value="48"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hfecbd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="cbdfah"/>
+      <x value="7889"/>
+      <y value="6211"/>
+      <radius value="85"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="cbdfah"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hbdaef"/>
+      <x value="4315"/>
+      <y value="5870"/>
+      <radius value="69"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hbdaef"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="chefga"/>
+      <x value="4108"/>
+      <y value="3680"/>
+      <radius value="34"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="chefga"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="fhcbeg"/>
+      <x value="3655"/>
+      <y value="8080"/>
+      <radius value="76"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="fhcbeg"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="efdcgh"/>
+      <x value="2971"/>
+      <y value="248"/>
+      <radius value="93"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="efdcgh"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bdcgfh"/>
+      <x value="2303"/>
+      <y value="1193"/>
+      <radius value="69"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bdcgfh"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="adgefb"/>
+      <x value="558"/>
+      <y value="1305"/>
+      <radius value="98"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="adgefb"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="fabgcd"/>
+      <x value="299"/>
+      <y value="1823"/>
+      <radius value="76"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="fabgcd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bchagf"/>
+      <x value="4790"/>
+      <y value="4327"/>
+      <radius value="75"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bchagf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hbfaeg"/>
+      <x value="3125"/>
+      <y value="1732"/>
+      <radius value="33"/>
+      <color value="yellow"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hbfaeg"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="ehfgcd"/>
+      <x value="83"/>
+      <y value="3927"/>
+      <radius value="18"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="ehfgcd"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hecbfa"/>
+      <x value="7319"/>
+      <y value="1389"/>
+      <radius value="16"/>
+      <color value="orange"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hecbfa"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="fceagh"/>
+      <x value="1231"/>
+      <y value="6537"/>
+      <radius value="13"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="fceagh"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="chgdab"/>
+      <x value="8173"/>
+      <y value="1184"/>
+      <radius value="89"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="chgdab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="chgdab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="chgdab"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hbfdec"/>
+      <x value="3723"/>
+      <y value="5957"/>
+      <radius value="80"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hbfdec"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="dhacbe"/>
+      <x value="6318"/>
+      <y value="872"/>
+      <radius value="89"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="dhacbe"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="efgbdc"/>
+      <x value="7922"/>
+      <y value="474"/>
+      <radius value="54"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="efgbdc"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="cehfda"/>
+      <x value="3908"/>
+      <y value="5081"/>
+      <radius value="15"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="cehfda"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bahfeg"/>
+      <x value="7059"/>
+      <y value="5608"/>
+      <radius value="13"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bahfeg"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bdagfc"/>
+      <x value="3398"/>
+      <y value="770"/>
+      <radius value="52"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bdagfc"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="egfhbc"/>
+      <x value="876"/>
+      <y value="1667"/>
+      <radius value="59"/>
+      <color value="yellow"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="egfhbc"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="fcgdae"/>
+      <x value="5903"/>
+      <y value="7403"/>
+      <radius value="54"/>
+      <color value="purple"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="fcgdae"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="chdbfa"/>
+      <x value="7307"/>
+      <y value="5446"/>
+      <radius value="21"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="chdbfa"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="hagbdc"/>
+      <x value="2955"/>
+      <y value="521"/>
+      <radius value="91"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="hagbdc"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="cghfad"/>
+      <x value="6422"/>
+      <y value="6604"/>
+      <radius value="68"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="cghfad"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bcfead"/>
+      <x value="6195"/>
+      <y value="3921"/>
+      <radius value="29"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bcfead"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="abcgfh"/>
+      <x value="2130"/>
+      <y value="2940"/>
+      <radius value="27"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="abcgfh"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="gedbca"/>
+      <x value="1247"/>
+      <y value="5381"/>
+      <radius value="55"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="gedbca"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="gabfde"/>
+      <x value="5012"/>
+      <y value="6976"/>
+      <radius value="81"/>
+      <color value="green"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="gabfde"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="chbdgf"/>
+      <x value="514"/>
+      <y value="8086"/>
+      <radius value="56"/>
+      <color value="orange"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="chbdgf"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="bfhceg"/>
+      <x value="6094"/>
+      <y value="5567"/>
+      <radius value="22"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="bfhceg"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="coordinate"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="printPRQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree>
+        <gray x="4096" y="4096">
+          <gray x="2048" y="6144">
+            <gray x="1024" y="7168">
+              <black name="chbdgf" x="514" y="8086"/>
+              <white/>
+              <white/>
+              <black name="fceagh" x="1231" y="6537"/>
+            </gray>
+            <gray x="3072" y="7168">
+              <white/>
+              <gray x="3584" y="7680">
+                <white/>
+                <black name="fhcbeg" x="3655" y="8080"/>
+                <black name="bdceha" x="3148" y="7589"/>
+                <white/>
+              </gray>
+              <gray x="2560" y="6656">
+                <black name="dhcgaf" x="2494" y="7167"/>
+                <white/>
+                <white/>
+                <black name="agbhfd" x="2992" y="6540"/>
+              </gray>
+              <white/>
+            </gray>
+            <black name="gedbca" x="1247" y="5381"/>
+            <gray x="3072" y="5120">
+              <white/>
+              <black name="hbfdec" x="3723" y="5957"/>
+              <white/>
+              <gray x="3584" y="4608">
+                <black name="hfecbd" x="3438" y="4765"/>
+                <black name="cehfda" x="3908" y="5081"/>
+                <white/>
+                <white/>
+              </gray>
+            </gray>
+          </gray>
+          <gray x="6144" y="6144">
+            <gray x="5120" y="7168">
+              <white/>
+              <black name="fcgdae" x="5903" y="7403"/>
+              <black name="gabfde" x="5012" y="6976"/>
+              <white/>
+            </gray>
+            <gray x="7168" y="7168">
+              <white/>
+              <white/>
+              <black name="cghfad" x="6422" y="6604"/>
+              <black name="cbdfah" x="7889" y="6211"/>
+            </gray>
+            <gray x="5120" y="5120">
+              <black name="hbdaef" x="4315" y="5870"/>
+              <black name="bfhceg" x="6094" y="5567"/>
+              <black name="bchagf" x="4790" y="4327"/>
+              <white/>
+            </gray>
+            <gray x="7168" y="5120">
+              <black name="bahfeg" x="7059" y="5608"/>
+              <black name="chdbfa" x="7307" y="5446"/>
+              <white/>
+              <white/>
+            </gray>
+          </gray>
+          <gray x="2048" y="2048">
+            <black name="ehfgcd" x="83" y="3927"/>
+            <black name="abcgfh" x="2130" y="2940"/>
+            <gray x="1024" y="1024">
+              <gray x="512" y="1536">
+                <black name="fabgcd" x="299" y="1823"/>
+                <black name="egfhbc" x="876" y="1667"/>
+                <white/>
+                <black name="adgefb" x="558" y="1305"/>
+              </gray>
+              <white/>
+              <white/>
+              <white/>
+            </gray>
+            <gray x="3072" y="1024">
+              <black name="bdcgfh" x="2303" y="1193"/>
+              <black name="hbfaeg" x="3125" y="1732"/>
+              <gray x="2560" y="512">
+                <white/>
+                <black name="hagbdc" x="2955" y="521"/>
+                <white/>
+                <black name="efdcgh" x="2971" y="248"/>
+              </gray>
+              <black name="bdagfc" x="3398" y="770"/>
+            </gray>
+          </gray>
+          <gray x="6144" y="2048">
+            <gray x="5120" y="3072">
+              <gray x="4608" y="3584">
+                <black name="chefga" x="4108" y="3680"/>
+                <white/>
+                <white/>
+                <black name="bedahg" x="4905" y="3333"/>
+              </gray>
+              <white/>
+              <white/>
+              <white/>
+            </gray>
+            <black name="bcfead" x="6195" y="3921"/>
+            <white/>
+            <gray x="7168" y="1024">
+              <white/>
+              <black name="hecbfa" x="7319" y="1389"/>
+              <black name="dhacbe" x="6318" y="872"/>
+              <gray x="7680" y="512">
+                <black name="egcbfa" x="7423" y="550"/>
+                <white/>
+                <white/>
+                <black name="efgbdc" x="7922" y="474"/>
+              </gray>
+            </gray>
+          </gray>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="480"/>
+      <y value="6557"/>
+      <radius value="6983"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="4246"/>
+      <y value="4430"/>
+    </parameters>
+    <output>
+      <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="896"/>
+      <y value="7306"/>
+      <radius value="2032"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="1954"/>
+      <y value="7923"/>
+    </parameters>
+    <output>
+      <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+    </output>
+  </success>
+  <error type="noCitiesExistInRange">
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3827"/>
+      <y value="2382"/>
+      <radius value="528"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="1091"/>
+      <y value="6547"/>
+    </parameters>
+    <output>
+      <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1011"/>
+      <y value="193"/>
+      <radius value="5726"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6556"/>
+      <y value="858"/>
+    </parameters>
+    <output>
+      <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1809"/>
+      <y value="4394"/>
+      <radius value="7524"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2212"/>
+      <y value="2889"/>
+    </parameters>
+    <output>
+      <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3859"/>
+      <y value="4021"/>
+      <radius value="2192"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6007"/>
+      <y value="7710"/>
+    </parameters>
+    <output>
+      <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1858"/>
+      <y value="6574"/>
+      <radius value="5929"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="4172"/>
+      <y value="3812"/>
+    </parameters>
+    <output>
+      <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="8134"/>
+      <y value="646"/>
+      <radius value="4887"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6230"/>
+      <y value="1469"/>
+    </parameters>
+    <output>
+      <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="7728"/>
+      <y value="3839"/>
+      <radius value="8053"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="1761"/>
+      <y value="4725"/>
+    </parameters>
+    <output>
+      <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2865"/>
+      <y value="4008"/>
+      <radius value="1864"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6007"/>
+      <y value="3857"/>
+    </parameters>
+    <output>
+      <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1913"/>
+      <y value="8150"/>
+      <radius value="3858"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="8018"/>
+      <y value="7403"/>
+    </parameters>
+    <output>
+      <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3200"/>
+      <y value="153"/>
+      <radius value="4345"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="4761"/>
+      <y value="6727"/>
+    </parameters>
+    <output>
+      <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+    </output>
+  </success>
+  <error type="noCitiesExistInRange">
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2239"/>
+      <y value="4682"/>
+      <radius value="854"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2630"/>
+      <y value="3453"/>
+    </parameters>
+    <output>
+      <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="355"/>
+      <y value="6953"/>
+      <radius value="1368"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6609"/>
+      <y value="5380"/>
+    </parameters>
+    <output>
+      <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="6947"/>
+      <y value="1051"/>
+      <radius value="6078"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="4794"/>
+      <y value="4007"/>
+    </parameters>
+    <output>
+      <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1232"/>
+      <y value="5702"/>
+      <radius value="6240"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6119"/>
+      <y value="2500"/>
+    </parameters>
+    <output>
+      <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="892"/>
+      <y value="8182"/>
+      <radius value="2791"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="873"/>
+      <y value="4312"/>
+    </parameters>
+    <output>
+      <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="6721"/>
+      <y value="5344"/>
+      <radius value="4464"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="3710"/>
+      <y value="1493"/>
+    </parameters>
+    <output>
+      <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2954"/>
+      <y value="1109"/>
+      <radius value="4549"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2061"/>
+      <y value="3636"/>
+    </parameters>
+    <output>
+      <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="280"/>
+      <y value="4521"/>
+      <radius value="695"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="5291"/>
+      <y value="5372"/>
+    </parameters>
+    <output>
+      <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="5126"/>
+      <y value="1494"/>
+      <radius value="3987"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6412"/>
+      <y value="3590"/>
+    </parameters>
+    <output>
+      <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="277"/>
+      <y value="6284"/>
+      <radius value="7527"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="1675"/>
+      <y value="3186"/>
+    </parameters>
+    <output>
+      <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="4783"/>
+      <y value="5204"/>
+      <radius value="7686"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="937"/>
+      <y value="6568"/>
+    </parameters>
+    <output>
+      <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="6867"/>
+      <y value="468"/>
+      <radius value="3975"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="5353"/>
+      <y value="4591"/>
+    </parameters>
+    <output>
+      <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="4656"/>
+      <y value="7501"/>
+      <radius value="5683"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2092"/>
+      <y value="7116"/>
+    </parameters>
+    <output>
+      <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="7920"/>
+      <y value="4813"/>
+      <radius value="1969"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2344"/>
+      <y value="7153"/>
+    </parameters>
+    <output>
+      <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3517"/>
+      <y value="3515"/>
+      <radius value="7957"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="4459"/>
+      <y value="6914"/>
+    </parameters>
+    <output>
+      <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2609"/>
+      <y value="6621"/>
+      <radius value="3747"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6349"/>
+      <y value="290"/>
+    </parameters>
+    <output>
+      <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3657"/>
+      <y value="2017"/>
+      <radius value="5307"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2546"/>
+      <y value="4278"/>
+    </parameters>
+    <output>
+      <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2134"/>
+      <y value="2762"/>
+      <radius value="2300"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2219"/>
+      <y value="7432"/>
+    </parameters>
+    <output>
+      <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="641"/>
+      <y value="4362"/>
+      <radius value="7586"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="3300"/>
+      <y value="4644"/>
+    </parameters>
+    <output>
+      <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1860"/>
+      <y value="5503"/>
+      <radius value="3519"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="3357"/>
+      <y value="2814"/>
+    </parameters>
+    <output>
+      <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="1383"/>
+      <y value="5070"/>
+      <radius value="720"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="3437"/>
+      <y value="4929"/>
+    </parameters>
+    <output>
+      <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="7434"/>
+      <y value="5685"/>
+      <radius value="7618"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="6302"/>
+      <y value="6849"/>
+    </parameters>
+    <output>
+      <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="4864"/>
+      <y value="3034"/>
+      <radius value="7803"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="840"/>
+      <y value="6789"/>
+    </parameters>
+    <output>
+      <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="4071"/>
+      <y value="5170"/>
+      <radius value="826"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="5340"/>
+      <y value="1244"/>
+    </parameters>
+    <output>
+      <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="912"/>
+      <y value="4317"/>
+      <radius value="7017"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="3512"/>
+      <y value="6334"/>
+    </parameters>
+    <output>
+      <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="7117"/>
+      <y value="5658"/>
+      <radius value="7753"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="blue" name="bdagfc" radius="52" x="3398" y="770"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="blue" name="cbdfah" radius="85" x="7889" y="6211"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="black" name="chdbfa" radius="21" x="7307" y="5446"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="red" name="dhacbe" radius="89" x="6318" y="872"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="blue" name="efdcgh" radius="93" x="2971" y="248"/>
+        <city color="blue" name="efgbdc" radius="54" x="7922" y="474"/>
+        <city color="orange" name="egcbfa" radius="43" x="7423" y="550"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="green" name="hagbdc" radius="91" x="2955" y="521"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="orange" name="hecbfa" radius="16" x="7319" y="1389"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2415"/>
+      <y value="1641"/>
+    </parameters>
+    <output>
+      <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="2126"/>
+      <y value="5601"/>
+      <radius value="4991"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="adgefb" radius="98" x="558" y="1305"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="green" name="bahfeg" radius="13" x="7059" y="5608"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="purple" name="bdcgfh" radius="69" x="2303" y="1193"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="orange" name="chbdgf" radius="56" x="514" y="8086"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="yellow" name="egfhbc" radius="59" x="876" y="1667"/>
+        <city color="black" name="ehfgcd" radius="18" x="83" y="3927"/>
+        <city color="green" name="fabgcd" radius="76" x="299" y="1823"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="yellow" name="hbfaeg" radius="33" x="3125" y="1732"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="349"/>
+      <y value="6289"/>
+    </parameters>
+    <output>
+      <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+    </output>
+  </success>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="3892"/>
+      <y value="5176"/>
+      <radius value="3190"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="blue" name="abcgfh" radius="27" x="2130" y="2940"/>
+        <city color="red" name="agbhfd" radius="48" x="2992" y="6540"/>
+        <city color="red" name="bcfead" radius="29" x="6195" y="3921"/>
+        <city color="green" name="bchagf" radius="75" x="4790" y="4327"/>
+        <city color="purple" name="bdceha" radius="70" x="3148" y="7589"/>
+        <city color="red" name="bedahg" radius="37" x="4905" y="3333"/>
+        <city color="red" name="bfhceg" radius="22" x="6094" y="5567"/>
+        <city color="green" name="cehfda" radius="15" x="3908" y="5081"/>
+        <city color="red" name="cghfad" radius="68" x="6422" y="6604"/>
+        <city color="red" name="chefga" radius="34" x="4108" y="3680"/>
+        <city color="purple" name="dhcgaf" radius="58" x="2494" y="7167"/>
+        <city color="black" name="fceagh" radius="13" x="1231" y="6537"/>
+        <city color="purple" name="fcgdae" radius="54" x="5903" y="7403"/>
+        <city color="purple" name="fhcbeg" radius="76" x="3655" y="8080"/>
+        <city color="green" name="gabfde" radius="81" x="5012" y="6976"/>
+        <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+        <city color="red" name="hbdaef" radius="69" x="4315" y="5870"/>
+        <city color="green" name="hbfdec" radius="80" x="3723" y="5957"/>
+        <city color="purple" name="hfecbd" radius="48" x="3438" y="4765"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="nearestCity"/>
+    <parameters>
+      <x value="2134"/>
+      <y value="5325"/>
+    </parameters>
+    <output>
+      <city color="blue" name="gedbca" radius="55" x="1247" y="5381"/>
+    </output>
+  </success>
+  <success>
+    <command name="clearAll"/>
+    <parameters/>
+    <output/>
+  </success>
+</results>

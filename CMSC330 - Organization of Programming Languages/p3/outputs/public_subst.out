@@ -1,0 +1,4 @@
+Plus (Var "v",Int 3)
+Mult (Int 4,Plus (Int 3,Var "baz"))
+Plus (Negate (Var "v"),Int 3)
+Mult (Var "foo",Plus (Int 3,Var "baz"))

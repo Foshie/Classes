@@ -1,0 +1,12 @@
+        li   R1 212
+        li   R2 213
+        li   R3 212
+        bne  R1 R2 label1
+        li   R4 214  # should be skipped
+label1: bne  R1 R3 label2
+        li   R5 215  # should not be skipped
+label2: beq  R1 R3 label3
+        li   R1 216  # should be skipped
+label3: beq  R1 R2 label4
+        li   R2 217  # should not be skipped
+label4: halt

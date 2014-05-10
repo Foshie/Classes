@@ -1,0 +1,6 @@
+Instructions are:
+0: add R1 R2 R3
+1: sub R2 R3 R4
+2: mul R3 R4 R5
+3: div R5 R4 R3
+Instuctions should just have been printed once.

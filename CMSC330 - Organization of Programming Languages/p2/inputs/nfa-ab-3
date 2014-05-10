@@ -1,0 +1,73 @@
+start aaa
+trans ()a a ()
+trans ()aa a ()a
+trans aaa a ()aa
+final ()
+
+start aba
+trans ()a a ()
+trans ()ba b ()a
+trans aba a ()ba
+final ()
+
+start ab*a
+trans ()b*a a ()
+trans ()b*a b ()b*a
+trans ab*a a ()b*a
+final ()
+
+start aaaa*
+trans aaaa* a ()aaa*
+trans ()aa* a ()a*
+trans ()a* a ()a*
+trans ()aaa* a ()aa*
+final ()a*
+
+start aa*aa
+trans ()a a ()
+trans ()a*aa a ()a*aa
+trans ()a*aa a ()a
+trans aa*aa a ()a*aa
+final ()
+
+start abbab*
+trans ()ab* a ()b*
+trans ()bab* b ()ab*
+trans ()bbab* b ()bab*
+trans abbab* a ()bbab*
+trans ()b* b ()b*
+final ()b*
+
+start abba*b*
+trans ()ba*b* b ()a*b*
+trans ()bba*b* b ()ba*b*
+trans ()a*b* a ()a*b*
+trans ()a*b* b ()b*
+trans abba*b* a ()bba*b*
+trans ()b* b ()b*
+final ()a*b*
+
+start ab*ba*
+trans ab*ba* a ()b*ba*
+trans ()b*ba* b ()b*ba*
+trans ()b*ba* b ()a*
+trans ()a* a ()a*
+final ()a*
+
+start b*ab*
+trans ()b*ab* a ()b*
+trans ()b*ab* b ()b*ab*
+trans b*ab* a ()b*
+trans b*ab* b ()b*ab*
+trans ()b* b ()b*
+final ()b*
+
+start b*ab*a
+trans b*ab*a a ()b*a
+trans b*ab*a b ()b*ab*a
+trans ()b*ab*a a ()b*a
+trans ()b*ab*a b ()b*ab*a
+trans ()b*a a ()
+trans ()b*a b ()b*a
+final ()
+

@@ -1,0 +1,15 @@
+insert jayanta mondal
+insert rajesh chitnis
+insert govind kothari
+insert varun nagaraja
+delete govind
+display keys
+__END__
+Insertion of jayanta => mondal succeeded.
+Insertion of rajesh => chitnis succeeded.
+Insertion of govind => kothari succeeded.
+Insertion of varun => nagaraja succeeded.
+Deletion of govind succeeded.
+Key 1: jayanta
+Key 2: rajesh
+Key 3: varun

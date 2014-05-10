@@ -1,0 +1,20 @@
+The Scheduling algorithm I had in mind was a Multlevel feedback priority Queue 
+that first looks at the thread's preset priority.  Then after it has run more than once, if
+it needs more time on the processor, will be bumped down unconditionally to the next lower priority level.
+Idle processes always stay at the lowest level no matter what.  
+
+The levels are stored in an array:
+[0] - PRIORITY_HIGH
+[1] - PRIORITY_NORMAL
+[2] - PRIORITY_LOW
+[3] - PRIORITY_USER
+[4] - PRIORITY_IDLE
+
+After the 3rd time a thread is run in the lowest level([3]) it will be bumped up to the highest priority 
+on the next time it is made runnable.  This allows a fair and equal time on the processor with a lower
+starvation.  Priority_Idle threads do not get bumped up priorities as it ends up taking too much time.
+
+Essentially there are 2 feedback queues after I wrote this.  One that is a version of an RR scheduler
+and the other is just an IDLE priority queue as to no waste the processor's time with nothing going on.
+
+

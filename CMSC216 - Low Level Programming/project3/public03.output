@@ -1,0 +1,7 @@
+Inserting key = A0001test testValue = TestValue result = 0
+Searching key = A0001test, result = 0
+Searched value = TestValue
+Deleting key = A0001test, result = 0
+Searching key = A0001test, result = -1
+Key count of table is 0
+Bucket count of table is 5

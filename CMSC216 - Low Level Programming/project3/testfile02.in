@@ -1,0 +1,19 @@
+insert a z
+insert b y
+insert c x
+insert d w
+insert e v
+display keys
+display key_count
+__END__
+Insertion of a => z succeeded.
+Insertion of b => y succeeded.
+Insertion of c => x succeeded.
+Insertion of d => w succeeded.
+Insertion of e => v succeeded.
+Key 1: a
+Key 2: b
+Key 3: c
+Key 4: d
+Key 5: e
+Key count: 5

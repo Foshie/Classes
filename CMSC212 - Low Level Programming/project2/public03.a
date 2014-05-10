@@ -1,0 +1,5 @@
+div R5 R1 R5
+mod R4 R1 R4
+and R1 R0 R2
+or  R2 R2 R0
+xor R3 R2 R1
